@@ -1,0 +1,70 @@
+body
+{
+	width: 500px;
+	height: auto;
+	margin: auto;
+	/*border: 1px black solid;*/
+	display: flex;
+	flex-direction: column;
+}
+
+header
+{
+	background-color:#2F8D79;
+}
+
+header h1
+{
+	color: #EAC645;
+	font-weight: bold;
+	text-align: center;
+	font-family:Times New Roman;
+
+}
+
+#Menus
+{
+	display: flex;
+
+}
+
+.Mnote
+{
+	border:1px black solid;
+	
+}
+
+.Mchic
+{
+	border:1px black solid;
+}
+
+.Mdelice
+{
+	border:1px black solid;
+}
+.Mpalette
+{
+	border:1px black solid;
+}
+
+.next
+{
+	margin:auto;
+}
+.next p
+{
+	border:1px black solid;
+	border-radius: 10%;
+	padding:5px 20px;
+	background-color: #2F8D79;
+	color: #EAC645;
+	text-align: center;
+}
+
+footer
+{
+	display: flex;
+	background-color:  #2F8D79;
+	color: #EAC645;
+}
