@@ -24,28 +24,52 @@ header h1
 
 #Menus
 {
+	width: 400px;
+	margin: auto;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 
 }
 
 .Mnote
 {
+	order:1;
 	border:1px black solid;
-	
+	width: 180px;
+	height: 250px;
+	margin-top:30px;
+	margin-bottom: :30px;
+	margin-right: 30px;	
 }
 
 .Mchic
 {
 	border:1px black solid;
+	order:2;
+	width: 180px;
+	height: 250px;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 .Mdelice
 {
 	border:1px black solid;
+	order:3;
+	width: 180px;
+	height: 250px;
+	margin-bottom:20px;
+	margin-right: 30px;
+
 }
 .Mpalette
 {
 	border:1px black solid;
+	order:4;
+	width: 180px;
+	height: 250px;
+	margin-bottom: 20px;
 }
 
 .next
