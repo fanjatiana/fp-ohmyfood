@@ -26,11 +26,12 @@ header h1
 #Menus
 {
 	width: 80%;
+	height: auto;
 	margin:auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 
 }
 
@@ -42,53 +43,75 @@ header h1
 }
 
 
+
+
 .Mnote
 {
 	
 	order:1;
 	border:1px black solid;
+	/*background-color: #ffbb99;*/
 	width: 300px;
-	height: 400px;
-		
-
+	height: 400px;		
 }
+
+.Mnote h2,p
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
+
 
 .Mchic
 {
-
+	/*background-color: #ffb3b3;*/
 	border:1px black solid;
 	order:2;
 	width: 300px;
-	height: 400px;
-		
-	
-	
+	height: 400px;	
 }
+.Mchic h2,p
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
 
 .Mdelice
 {
+	/*background-color: #99ffff;*/
 	border:1px black solid;
 	order:3;
 	width: 300px;
 	height: 400px;
-	
-
-
-
 
 }
+.Mdelice h2,p
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
 .Mpalette
 {
+	/*background-color: #99ff99;*/
 	border:1px black solid;
 	order:4;
 	width: 300px;
 	height: 400px;
 	
 }
+.Mpalette h2,p
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
 
 .next
 {
-	margin:30px 300px;
+	margin:50px 300px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
@@ -105,21 +128,25 @@ header h1
 
 footer
 {
+	width: auto;
+	height: auto;
 	display: flex;
 	justify-content: space-between;
-	background-color:  #2F8D79;
+	background:  #2F8D79;
 	color: #EAC645;
+	border: 1px black solid;
+
 }
-footer .Mlegales
+.Mlegales
 {
-	justify-content: flex-start;
+	
 	margin-left: 50px;
 	font-size: 1.5em;
 
 }
-footer .contact
+ .contact
 {
-	justify-content: flex-end;
+	
 	margin-right: 50px;
 	font-size: 1.5em;
 }
