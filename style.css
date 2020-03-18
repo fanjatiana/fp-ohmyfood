@@ -11,6 +11,7 @@ body
 header
 {
 	background-color:#2F8D79;
+
 }
 
 header h1
@@ -26,12 +27,12 @@ header h1
 #Menus
 {
 	width: 80%;
-	height: auto;
+	height:auto;
 	margin:auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/*border: 1px black solid;*/
+	
 
 }
 
@@ -39,79 +40,90 @@ header h1
 #Menus section
 {
 	
-	margin: 30px 50px;
+	margin: 100px 50px;
 }
 
 
 
-
+/*section la note enchantée*/
 .Mnote
 {
-	
+	border:1px black none;
+	box-shadow:1px 1px 5px 1px grey;
 	order:1;
-	border:1px black solid;
-	/*background-color: #ffbb99;*/
 	width: 300px;
 	height: 400px;		
 }
 
+.Mnote h2
+{
+	padding-top:100px;
+}
 .Mnote h2,p
 {
 	text-align: center;
-	margin-top: 100px;
 }
 
 
+/*section Le chic à la française*/
 
 .Mchic
 {
-	/*background-color: #ffb3b3;*/
-	border:1px black solid;
+	border:1px black none;
+	box-shadow:1px 1px 5px 1px grey;
 	order:2;
 	width: 300px;
 	height: 400px;	
 }
-.Mchic h2,p
+.Mchic h2
 {
 	text-align: center;
-	margin-top: 100px;
+	padding-top: 100px;
 }
 
+/*section Le délice des papilles*/
 
 .Mdelice
 {
 	/*background-color: #99ffff;*/
-	border:1px black solid;
+	border:1px black none;
+	box-shadow:1px 1px 5px 1px grey;
 	order:3;
 	width: 300px;
 	height: 400px;
 
 }
-.Mdelice h2,p
+.Mdelice h2
 {
 	text-align: center;
-	margin-top: 100px;
+	padding-top: 100px;
 }
+
+
+/*section la note enchantée*/
 
 .Mpalette
 {
 	/*background-color: #99ff99;*/
-	border:1px black solid;
+	border:1px black none;
+	box-shadow:1px 1px 5px 1px grey;
 	order:4;
 	width: 300px;
 	height: 400px;
 	
 }
-.Mpalette h2,p
+.Mpalette h2
 {
 	text-align: center;
-	margin-top: 100px;
+	padding-top: 100px;
 }
 
 
+/*La palette du gôut*/
+
 .next
 {
-	margin:50px 300px;
+	margin:100px 300px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
@@ -129,24 +141,27 @@ header h1
 footer
 {
 	width: auto;
-	height: auto;
+	height:auto;
 	display: flex;
 	justify-content: space-between;
 	background:  #2F8D79;
 	color: #EAC645;
-	border: 1px black solid;
-
+	/*border: 1px black solid;*/
 }
+
+
 .Mlegales
 {
 	
+	text-align: center;
 	margin-left: 50px;
-	font-size: 1.5em;
-
+	font-size: 2em;
+	
 }
- .contact
+ .contact 
 {
 	
+	
 	margin-right: 50px;
-	font-size: 1.5em;
+	font-size: 2em;
 }
