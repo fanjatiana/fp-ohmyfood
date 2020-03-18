@@ -55,6 +55,12 @@ header h1
 	height: 400px;		
 }
 
+.Mnote i
+{
+	font-size: 2em;
+	
+}
+
 .Mnote h2
 {
 	padding-top:100px;
