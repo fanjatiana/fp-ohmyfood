@@ -58,12 +58,14 @@ header h1
 .Mnote i
 {
 	font-size: 2em;
+	margin-top:100px;
+	margin-left: 130px;
 	
 }
 
 .Mnote h2
 {
-	padding-top:100px;
+
 	color: #5A3017 ;
 }
 .Mnote h2,p
@@ -71,7 +73,10 @@ header h1
 	text-align: center;
 	color: #5A3017 ;
 }
-
+.Mnote p
+{
+	font-size: 2em;
+}
 
 /*section Le chic à la française*/
 
@@ -86,7 +91,7 @@ header h1
 .Mchic h2
 {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D, #9260FC);
@@ -94,6 +99,7 @@ header h1
 .Mchic p
 {
 	color:#AA6512 ;
+	font-size: 2em;
 }
 
 /*section Le délice des papilles*/
@@ -111,7 +117,7 @@ header h1
 .Mdelice h2
 {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
@@ -119,6 +125,7 @@ header h1
 .Mdelice p
 {
 	color:#73BFFF;
+	font-size: 2em;
 }
 
 
@@ -137,7 +144,7 @@ header h1
 .Mpalette h2
 {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#357D3F  , #23FA42  );
@@ -145,6 +152,7 @@ header h1
 .Mpalette p
 {
 	color:#357D3F ;
+	font-size: 2em;
 }
 
 
