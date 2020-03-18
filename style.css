@@ -58,10 +58,12 @@ header h1
 .Mnote h2
 {
 	padding-top:100px;
+	color: #5A3017 ;
 }
 .Mnote h2,p
 {
 	text-align: center;
+	color: #5A3017 ;
 }
 
 
@@ -79,6 +81,13 @@ header h1
 {
 	text-align: center;
 	padding-top: 100px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left,#EA7F0D, #9260FC);
+}
+.Mchic p
+{
+	color:#AA6512 ;
 }
 
 /*section Le délice des papilles*/
@@ -97,6 +106,13 @@ header h1
 {
 	text-align: center;
 	padding-top: 100px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
+}
+.Mdelice p
+{
+	color:#73BFFF;
 }
 
 
@@ -116,6 +132,13 @@ header h1
 {
 	text-align: center;
 	padding-top: 100px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left,#357D3F  , #23FA42  );
+}
+.Mpalette p
+{
+	color:#357D3F ;
 }
 
 
@@ -144,7 +167,7 @@ footer
 	height:auto;
 	display: flex;
 	justify-content: space-between;
-	background:  #2F8D79;
+	background-color:#2F8D79 ;
 	color: #EAC645;
 	/*border: 1px black solid;*/
 }
