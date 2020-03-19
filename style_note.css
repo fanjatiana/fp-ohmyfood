@@ -1,0 +1,87 @@
+body
+{
+	width: 1024px;
+	height: auto;
+	margin: auto;
+	/*border: 1px black solid;*/
+	display: flex;
+	flex-direction: column;
+}
+
+			/*en-tête*/
+
+#logo
+{
+	background-color:#2F8D79;
+}
+
+#logo h1
+{
+	color: #EAC645;
+	font-weight: bold;
+	text-align: center;
+	font-family:Times New Roman;
+	font-size: 3em;
+
+}
+#Menu
+{
+	border:1px black none;
+	width: 80%;
+	height:auto;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	background-color: #EEC2A2  ;
+}
+#Menu header
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*menu prelude*/
+
+.prelude h3
+{
+	text-align: center;
+}
+
+.prelude div ul
+{
+	list-style-type: none;
+}
+.raviolis
+{
+	display: flex;
+	flex-direction: row;
+}
+.caviar
+{
+	display: flex;
+	flex-direction: row;
+}
+.homard
+{
+	display: flex;
+	flex-direction: row;
+}
+.foiegras
+{
+	display: flex;
+	flex-direction: row;
+}
+.prelude .prix
+{
+	width:10%;
+	
+}
+.prelude .list
+{
+	
+	width: 80%;
+	margin-right: 30px;
+}
+
+
+
