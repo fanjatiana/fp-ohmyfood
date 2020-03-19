@@ -32,7 +32,7 @@ body
 	margin: 100px auto;
 	display: flex;
 	flex-direction: column;
-	background-color: #F5E6FC  ;
+	background-color: #FFFCFF   ;
 	font-family: 'Baloo 2', cursive;
 }
 #Menu header
@@ -46,6 +46,7 @@ body
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #BE25EE ,#3A0A82 );
+	font-family: 'Amita', cursive;
 }
 
 
@@ -166,8 +167,10 @@ body
 
 }
 
+.gateau
+{
+	margin-bottom: 60px;
 }
-
 #Menu footer i
 {
 	font-size: 1.8em;
