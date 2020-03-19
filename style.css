@@ -73,24 +73,23 @@ header h1
 	margin-left: 130px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-	
+	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );	
 }
 
 .Mnote h2
 {
-
 	color: #5A3017 ;
 }
+
 .Mnote h2,p
 {
 	text-align: center;
 	color: #5A3017 ;
 }
+
 .Mnote p
 {
 	font-size: 2em;
-
 }
 
 /*section Le chic à la française*/
@@ -105,6 +104,7 @@ header h1
 	font-family: 'Baloo 2', cursive;
 	background-color: #FFFCFF;
 }
+
 .Mchic h2
 {
 	text-align: center;
@@ -113,6 +113,7 @@ header h1
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D, #9260FC);
 }
+
 .Mchic p
 {
 	color:#AA6512 ;
@@ -135,6 +136,7 @@ header h1
 	background-color: #F0FCFF;
 
 }
+
 .Mdelice h2
 {
 	text-align: center;
@@ -143,6 +145,7 @@ header h1
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
 }
+
 .Mdelice p
 {
 	color:#73BFFF;
@@ -162,9 +165,9 @@ header h1
 	height: 400px;
 	font-family:'Caveat', cursive;
 	font-style: italic;
-	background-color: #FEFEFE;
-	
+	background-color: #FEFEFE;	
 }
+
 .Mpalette h2
 {
 	text-align: center;
@@ -173,8 +176,8 @@ header h1
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#0D9906, #E1FFCD);
 	font-size: 1.9em;
-
 }
+
 .Mpalette p
 {
 	color:#357D3F ;
@@ -189,16 +192,14 @@ header h1
 	margin:100px 300px;
 	border:1px black none;
 	background-color: #2F8D79;
-	border-radius: 10px 10px;
-
-	
+	border-radius: 10px 10px;	
 }
+
 .next h2
 {
 	color: #EAC645;
 	text-align: center;
 	font-size: 1.5em;
-
 }
 
 
@@ -216,19 +217,27 @@ footer
 }
 
 .Mlegales p
-{
-	
+{	
 	text-align: center;
 	margin-left: 50px;
-	font-size: 2em;
-	color:#EAC645;
-	
+	font-size: 2em;	
 }
+
+.Mlegales p a
+{
+	text-decoration: none;
+	color:#EAC645;	
+}
+
  .contact p
 {
-	
-	
 	margin-right: 50px;
-	font-size: 2em;
+	font-size: 2em;	
+}
+
+.contact p a
+{
+	text-decoration: none;
 	color: #EAC645;
+
 }
