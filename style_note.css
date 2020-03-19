@@ -171,6 +171,12 @@ body
 
 /*Dessert*/
 
+.dessert
+{
+	display: flex;
+	flex-direction: column;
+}
+
 .dessert h3
 {
 	text-align: center;
@@ -183,7 +189,7 @@ body
 
 .dessert .list
 {
-	width: 90%;
+	width: 100%;
 	margin-right: 30px;
 	margin-left: 50px;
 }
