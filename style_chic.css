@@ -32,7 +32,8 @@ body
 	margin: 100px auto;
 	display: flex;
 	flex-direction: column;
-	background-color: #EEC2A2  ;
+	background-color: #F5E6FC  ;
+	font-family: 'Baloo 2', cursive;
 }
 #Menu header
 {
@@ -53,7 +54,7 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.3em;
 }
 .entree
 {
@@ -77,6 +78,7 @@ body
 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 .entree .prix
@@ -120,6 +122,7 @@ body
 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 .plat .prix
