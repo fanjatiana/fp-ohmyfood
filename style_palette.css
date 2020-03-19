@@ -32,6 +32,8 @@ body
 	margin: 50px auto;
 	display: flex;
 	flex-direction: column;
+	background-color: #FEFEFE ;
+	font-family:'Caveat', cursive;
 
 
 }
@@ -42,7 +44,7 @@ body
 }
 #Menu header h2
 {
-	font-size: 3em;
+	font-size:4em;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#357D3F  , #23FA42  );
@@ -54,7 +56,12 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.8em;
+}
+
+#Menu article
+{
+	font-size: 1.4em;
 }
 
 .entree div ul
@@ -156,10 +163,8 @@ body
 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 60px;
 }
-
-
-
 
 .dessert div ul
 {
@@ -177,8 +182,7 @@ body
 {
 	width:10%;
 	margin-right: 50px;
-	
-	
+		
 }
 
 #Menu footer
