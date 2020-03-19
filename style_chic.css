@@ -42,6 +42,9 @@ body
 #Menu header h2
 {
 	font-size: 3em;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left,#EA7F0D , #BE25EE ,#3A0A82 );
 }
 
 
@@ -52,7 +55,10 @@ body
 	text-align: center;
 	font-size: 1.8em;
 }
-
+.entree
+{
+	color: #EA7F0D;
+}
 .entree div ul
 {
 	list-style-type: none;
@@ -87,7 +93,10 @@ body
 }
 
 /*Menu Point d'orgue*/
-
+.plat
+{
+	color: #BE25EE ;
+}
 .plat h3
 {
 	text-align: center;
@@ -133,6 +142,7 @@ body
 .dessert
 {
 	margin-bottom: 50px;
+	color: #3A0A82 ;
 }
 
 .dessert h3
