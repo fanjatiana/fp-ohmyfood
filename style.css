@@ -58,8 +58,9 @@ header h1
 	width: 300px;
 	height: 400px;
 	margin-top: 20px;
-	/*font-family: georgia;
-	font-style: italic;	*/	
+	font-family: 'devonshire', Arial, serif;
+	font-style: italic;	
+	background-color: #FFD9CC;	
 }
 
 .Mnote i
@@ -98,7 +99,8 @@ header h1
 	order:2;
 	width: 300px;
 	height: 400px;
-	/*font-family: monotype-cursiva;*/	
+	font-family: 'Baloo 2', cursive;
+	background-color: #FFFCFF;
 }
 .Mchic h2
 {
@@ -125,8 +127,9 @@ header h1
 	order:3;
 	width: 300px;
 	height: 400px;
-	/*font-family: verdana, sans-serif;
-	font-style: italic;*/
+	font-family: 'Baloo Tamma 2', cursive;
+	font-style: italic;
+	background-color: #F0FCFF;
 
 }
 .Mdelice h2
@@ -154,8 +157,9 @@ header h1
 	order:4;
 	width: 300px;
 	height: 400px;
-	font-family: 'GrundschriftRegular';
-	font-style: italic
+	font-family:'Caveat', cursive;
+	font-style: italic;
+	background-color: #FEFEFE;
 	
 }
 .Mpalette h2
@@ -164,7 +168,9 @@ header h1
 	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#357D3F  , #23FA42  );
+	background-image: -webkit-linear-gradient(left,#0D9906, #E1FFCD);
+	font-size: 1.9em;
+
 }
 .Mpalette p
 {
