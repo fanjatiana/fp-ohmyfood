@@ -15,15 +15,21 @@ body
 	background-color:#2F8D79;
 }
 
+
 #logo h1
 {
-	color: #EAC645;
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
 	font-size: 3em;
-
 }
+
+#logo h1 a
+{
+	color: #EAC645;
+	text-decoration: none;
+}
+
 #Menu
 {
 	border:1px black none;
@@ -207,14 +213,23 @@ body
 	text-align: center;
 	margin-left: 50px;
 	font-size: 2em;
-	color:#EAC645;
-	
+	color:#EAC645;	
+}
+
+.Mlegales p a
+{
+	text-decoration: none;
+	color:#EAC645;	
+}
+.contact p a
+{
+	text-decoration: none;
+	color: #EAC645;
 }
  .contact p
 {
-	
-	
 	margin-right: 50px;
 	font-size: 2em;
 	color: #EAC645;
 }
+

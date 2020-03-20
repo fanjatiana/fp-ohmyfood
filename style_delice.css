@@ -17,11 +17,16 @@ body
 
 #logo h1
 {
-	color: #EAC645;
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
 	font-size: 3em;
+}
+
+#logo h1 a
+{
+	color: #EAC645;
+	text-decoration: none;
 }
 
 #Menu
@@ -225,6 +230,17 @@ body
 	margin-left: 50px;
 	font-size: 2em;
 	color:#EAC645;	
+}
+
+.Mlegales p a
+{
+	text-decoration: none;
+	color:#EAC645;	
+}
+.contact p a
+{
+	text-decoration: none;
+	color: #EAC645;
 }
 
  .contact p
