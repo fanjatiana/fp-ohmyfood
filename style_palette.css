@@ -55,7 +55,7 @@ body
 }
 
 
-/*menu entree*/
+/*esquisse*/
 
 #Menu h3
 {
@@ -63,25 +63,28 @@ body
 	font-size: 1.8em;
 }
 
-#Menu article
+#Menu div
 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 .entree div ul
 {
 	list-style-type: none;
 }
+
 .fricassee
 {
 	display: flex;
 	flex-direction: row;
 }
+
 .oeuf
 {
 	display: flex;
 	flex-direction: row;
 }
+
 .foiegras
 {
 	display: flex;
@@ -91,17 +94,16 @@ body
 .entree .prix
 {
 	width:10%;
-	margin-right: 50px;
-	
+	margin-right: 50px;	
 }
+
 .entree .list
-{
-	
+{	
 	width: 90%;
 	margin-left: 50px;
 }
 
-/*Menu Point d'orgue*/
+/*oeuvre de maître*/
 
 .plat h3
 {
@@ -112,6 +114,7 @@ body
 {
 	list-style-type: none;
 }
+
 .filetboeuf
 {
 	display: flex;
@@ -123,6 +126,7 @@ body
 	display: flex;
 	flex-direction: row;
 }
+
 .turbot
 {
 	display: flex;
@@ -132,20 +136,18 @@ body
 .plat .prix
 {
 	width:10%;
-	margin-right: 50px;
-	
-	
+	margin-right: 50px;	
 }
+
 .plat .list
 {
 	
 	width: 90%;
 	margin-right: 30px;
 	margin-left: 50px;
-
 }
 
-/*Dessert*/
+/*au sommet de l'art*/
 
 .dessert h3
 {
@@ -157,6 +159,7 @@ body
 	display: flex;
 	flex-direction: row;
 }
+
 .macaron
 {
 	display: flex;
@@ -174,40 +177,20 @@ body
 {
 	list-style-type: none;
 }
+
 .dessert .list
 {
 	
 	width: 90%;
 	margin-right: 30px;
 	margin-left: 50px;
-
 }
 .dessert .prix
 {
 	width:10%;
-	margin-right: 50px;
-		
+	margin-right: 50px;		
 }
 
-#Menu footer
-{
-	text-align: center;
-	margin:30px 0px;
-}
-
-#Menu footer i
-{
-	font-size: 1.8em;
-	margin-right: 20px;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-}
-
-#Menu footer p
-{
-	font-size: 2em;
-}
 
 
 			/*Pied de page*/
@@ -227,8 +210,7 @@ body
 	text-align: center;
 	margin-left: 50px;
 	font-size: 2em;
-	color:#EAC645;
-	
+	color:#EAC645;	
 }
 
 .Mlegales p a

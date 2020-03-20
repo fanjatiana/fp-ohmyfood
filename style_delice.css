@@ -58,7 +58,7 @@ body
 }
 
 
-/*entree*/
+/*pour bien commencer*/
 
 #Menu h3
 {
@@ -97,12 +97,11 @@ body
 
 .entree .list
 {
-	
 	width: 90%;
 	margin-left: 50px;
 }
 
-/*plat*/
+/*pour bien continuer*/
 
 .plat h3
 {
@@ -140,13 +139,12 @@ body
 
 .plat .list
 {
-	
 	width: 90%;
 	margin-right: 30px;
 	margin-left: 50px;
 }
 
-/*Dessert*/
+/*pour bien terminer*/
 
 .dessert h3
 {
@@ -179,7 +177,6 @@ body
 
 .dessert .list
 {
-	
 	width: 90%;
 	margin-right: 30px;
 	margin-left: 50px;
@@ -191,25 +188,6 @@ body
 	margin-right: 50px;	
 }
 
-#Menu footer
-{
-	text-align: center;
-	margin:30px 0px;
-}
-
-#Menu footer i
-{
-	font-size: 1.8em;
-	margin-right: 20px;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-}
-
-#Menu footer p
-{
-	font-size: 2em;
-}
 
 
 			/*Pied de page*/
@@ -225,7 +203,6 @@ body
 
 .Mlegales p
 {
-	
 	text-align: center;
 	margin-left: 50px;
 	font-size: 2em;
@@ -237,6 +214,7 @@ body
 	text-decoration: none;
 	color:#EAC645;	
 }
+
 .contact p a
 {
 	text-decoration: none;
