@@ -54,6 +54,18 @@ header h1
 
 
 /*section la note enchantée*/
+@font-face {
+  font-family: 'devonshire';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Fonts/devonshire-v8-latin-regular.eot');
+  src: local('Devonshire-Regular'),
+       url('Fonts/devonshire-v8-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/devonshire-v8-latin-regular.woff2') format('woff2'),
+       url('Fonts/devonshire-v8-latin-regular.woff') format('woff'),
+       url('Fonts/devonshire-v8-latin-regular.ttf') format('truetype'),
+       url('Fonts/devonshire-v8-latin-regular.svg#Devonshire') format('svg'); 
+}
 .Mnote
 {
 	border:1px black none;
@@ -82,6 +94,7 @@ header h1
 .Mnote h2
 {
 	color: #5A3017 ;
+	font-size: 1.6em;
 }
 
 .Mnote h2,p
@@ -92,7 +105,7 @@ header h1
 
 .Mnote p a
 {
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #5A3017 ;
 }
 
@@ -114,11 +127,13 @@ header h1
 .Mchic h2
 {
 	text-align: center;
-	padding-top: 140px;
+	padding-top: 160px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D, #9260FC);
 }
+
+
 
 .Mchic p a
 {
