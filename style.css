@@ -90,9 +90,10 @@ header h1
 	color: #5A3017 ;
 }
 
-.Mnote p
+.Mnote p a
 {
 	font-size: 2em;
+	color: #5A3017 ;
 }
 
 /*section Le chic à la française*/
@@ -119,9 +120,9 @@ header h1
 	background-image: -webkit-linear-gradient(left,#EA7F0D, #9260FC);
 }
 
-.Mchic p
+.Mchic p a
 {
-	color:#AA6512 ;
+	color:#EA7F0D;
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -137,7 +138,7 @@ header h1
 	width: 300px;
 	height: 400px;
 	margin-left: 200px;
-	font-family: 'Baloo Tamma 2', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-style: italic;
 	background-color: #F0FCFF;
 }
@@ -145,15 +146,16 @@ header h1
 .Mdelice h2
 {
 	text-align: center;
+	font-size: 2em;
 	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
 }
 
-.Mdelice p
+.Mdelice p a
 {
-	color:#73BFFF;
+	color:#090675;
 	font-size: 2em;
 }
 
@@ -184,9 +186,9 @@ header h1
 	font-size: 1.9em;
 }
 
-.Mpalette p
+.Mpalette p a
 {
-	color:#357D3F ;
+	color:#0D9906 ;
 	font-size: 2em;
 }
 
