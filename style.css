@@ -34,7 +34,7 @@ header h1
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/*background-color: #FBF7E5 ;*/
+	background-color: #FAFAFA  ;
 }
 
 #Menus section p a
@@ -197,7 +197,8 @@ header h1
 
 .next
 {
-	margin:100px 300px;
+	margin:100px 400px;
+	padding:5px 50px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
