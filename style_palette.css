@@ -61,7 +61,9 @@ body
 {
 	text-align: center;
 	font-size: 1.8em;
+
 }
+
 
 #Menu div
 {
@@ -71,6 +73,11 @@ body
 .entree div ul
 {
 	list-style-type: none;
+}
+.entree h3 img
+{
+	margin:0 55px;
+	width: 30%;
 }
 
 .fricassee
@@ -109,6 +116,12 @@ body
 {
 	text-align: center;
 }
+.plat h3 img
+{
+	margin:0 20px;
+	width: 30%;
+}
+
 
 .plat div ul
 {
@@ -153,6 +166,12 @@ body
 {
 	text-align: center;
 }
+.dessert h3 img
+{
+	margin:0 15px;
+	width: 30%;
+}
+
 
 .parisbrest
 {

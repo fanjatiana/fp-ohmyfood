@@ -39,7 +39,7 @@ body
 	flex-direction: column;
 	font-family: 'Baloo Tamma 2', cursive;
 	font-style: italic;
-	background-color: #F0FCFF  ;
+	background-color: #ECF3F4 ;
 }
 
 #Menu header
@@ -69,6 +69,12 @@ body
 .entree div ul
 {
 	list-style-type: none;
+}
+
+.entree h3 img
+{
+	width: 30%;
+	margin:0px 20px;
 }
 
 .tartare
@@ -107,6 +113,12 @@ body
 {
 	text-align: center;
 }
+.plat h3 img
+{
+	width: 30%;
+	margin:0px 20px;
+}
+
 
 .plat div ul
 {
@@ -150,6 +162,13 @@ body
 {
 	text-align: center;
 }
+
+.dessert h3 img
+{
+	width: 30%;
+	margin:0px 20px;
+}
+
 
 .farandole
 {

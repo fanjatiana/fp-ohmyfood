@@ -38,7 +38,7 @@ body
 	margin: 100px auto;
 	display: flex;
 	flex-direction: column;
-	background-color: #FFFCFF   ;
+	background-color: #FCF5FE   ;
 	font-family: 'Baloo 2', cursive;
 }
 
@@ -53,7 +53,7 @@ body
 	font-size: 3em;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#EA7F0D , #BE25EE ,#3A0A82 );
+	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA   );
 	font-family: 'Amita', cursive;
 }
 
@@ -64,6 +64,10 @@ body
 {
 	text-align: center;
 	font-size: 1.3em;
+}
+.entree h3 img
+{
+	width: 25%;
 }
 
 .entree
@@ -111,12 +115,18 @@ body
 /*plaisir des papilles*/
 .plat
 {
-	color: #BE25EE ;
+	color: #8B4068  ;
 }
 
 .plat h3
 {
 	text-align: center;
+}
+
+.plat h3 img
+{
+	width: 25%;
+	margin:0 30px;
 }
 
 .plat div ul
@@ -162,7 +172,7 @@ body
 .dessert
 {
 	margin-bottom: 50px;
-	color: #3A0A82 ;
+	color:#562ACA   ;
 	display: flex;
 	flex-direction: column;
 }
@@ -170,6 +180,12 @@ body
 .dessert h3
 {
 	text-align: center;
+}
+
+.dessert h3 img
+{
+	width: 25%;
+	margin: 0px 15px;
 }
 
 .dessert div ul
