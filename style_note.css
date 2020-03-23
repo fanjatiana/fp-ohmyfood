@@ -53,7 +53,7 @@ body
 	margin: 50px auto;
 	display: flex;
 	flex-direction: column;
-	background-color:#FFD9CC ;
+	background-color:#F1DEDC   ;
 	font-family: 'devonshire', Arial, serif;
 	color:#5A3017;
 }
@@ -83,13 +83,19 @@ body
 {
 	text-align: center;
 	font-size: 1.8em;
+	margin: 0 30px;		
 }
 
 #Menu div
 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
+.entree h3 img
+{
+	width: 30%;
+	margin:0 50px;
+}
 .entree div ul
 {
 	list-style-type: none;
@@ -136,6 +142,11 @@ body
 .plat h3
 {
 	text-align: center;
+}
+.plat h3 img
+{
+	width: 30%;
+	margin:0 40px;
 }
 
 .plat div ul
@@ -186,6 +197,12 @@ body
 {
 	text-align: center;
 }
+.dessert  h3 img
+{
+	width: 30%;
+	margin:0 20px;
+}
+
 
 .dessert div ul
 {
