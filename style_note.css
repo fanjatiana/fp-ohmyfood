@@ -272,3 +272,84 @@ body
 	font-size: 2em;
 	color: #EAC645;
 }
+
+
+
+/*media quieries*/
+
+
+
+@media screen and (max-width: 1000px)
+{
+	body
+	{
+		width: auto;
+	}
+
+	#Menu
+	{	
+		margin-bottom: 150px;
+
+	}
+
+	
+
+	.entree h3 img
+	{
+		width: 30%;
+		margin:0 30px;
+	}
+
+	.plat h3 img
+	{
+		width: 30%;
+		margin:0 20px;
+	}
+
+	.dessertt h3 img
+	{
+		width: 30%;
+		margin:0 10px;
+	}
+
+	.entree div
+	{
+		flex-direction: column;
+		text-align: center;
+		padding-right: 100px;
+	}
+	
+	.prix
+	{
+		margin-left: 350px;
+	}
+	.plat div
+	{
+		flex-direction: column;
+		text-align: center;
+		padding-right: 100px;
+	}
+	
+	
+	.dessert div
+	{
+		flex-direction: column;
+		text-align: center;
+		padding-right: 150px;
+	}
+
+	
+
+	#infos
+	{
+		position: fixed;
+		bottom:0px;
+		width: 100%;
+
+	}
+
+
+	
+
+
+}

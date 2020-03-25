@@ -12,6 +12,7 @@ body
 header
 {
 	background-color:#2F8D79;
+	width: 100%;
 }
 
 header h1
@@ -228,11 +229,13 @@ header h1
 			/*Pied de page*/
 footer
 {
-	width: auto;
+
+	width: 100%;
 	height:auto;
-	display: flex;
-	justify-content: space-between;
 	background-color:#2F8D79 ;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .Mlegales p
@@ -259,3 +262,51 @@ footer
 	text-decoration: none;
 	color: #EAC645;
 }
+
+
+					
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
