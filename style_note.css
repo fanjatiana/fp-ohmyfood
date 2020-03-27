@@ -454,7 +454,7 @@ body
 	}
 }
 
-@media screen and (max-width: 565px)
+@media screen and (max-width: 645px)
 {
 	#Menu h3 img
 	{
@@ -551,7 +551,17 @@ body
 	#infos p
 	{
 		font-size:1.5em;
-		margin: 20px 1px;
+		margin:20px 10px;
+	}
+
+	@media screen and (max-width: 270px)
+	{
+		#Menu h3 img
+		{
+			margin:0px 5px;
+		}
+
+		
 	}
 
 	
