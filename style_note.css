@@ -129,11 +129,6 @@ body
 	justify-content: space-around;
 }
 
-.entree .prix
-{
-	/*width:10%;
-	margin-right: 50px;	*/
-}
 
 .entree .list
 {	
@@ -313,25 +308,16 @@ body
 
 	}
 
-
-
-	.entree h3 img
+	#Menu .prix
 	{
-		width: 30%;
-		margin:0 30px;
+		margin-right: 60px;
 	}
 
-	
-	.plat h3 img
+	.dessert .list
 	{
-		width: 30%;
-		margin:0 20px;
-	}
+		width: auto;
+		margin-left: 50px;
 
-	.dessertt h3 img
-	{
-		width: 30%;
-		margin:0 10px;
 	}
 
 	
@@ -339,6 +325,25 @@ body
 
 @media screen and (max-width: 870px)
 {
+	
+
+	
+	{
+		font-size:0.8em;
+	}
+	#Menu h3 img
+	{
+		width:25%;
+
+	}
+
+	#Menu h3 span
+	{
+		font-size: 1.2em;
+
+	}
+	
+
 	.entree div
 	{
 		flex-direction: column;
@@ -355,6 +360,7 @@ body
 	.prix
 	{
 		text-align: center;
+		margin-left: 50px;
 	}
 	
 
@@ -373,30 +379,180 @@ body
 	.dessert .list
 	{
 		text-align: center;
-		margin-left:100px;
+		margin-left: 0px;
+		
 	}
+
+
 
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 705px)
+{
+	
+	#Menu
+	{
+		font-size:0.8em;
+	}
+	#Menu h3 img
+	{
+		width:25%;
+
+	}
+
+	#Menu h3 span
+	{
+		font-size: 1.2em;
+
+	}
+
+	.entree
+	{
+		
+		margin-bottom: 20px;
+
+	}
+
+	.plat
+	{
+		margin-bottom: 20px;
+
+	}
+	.dessert .list
+	{
+		text-align: center;
+		padding: 0px;
+	}
+
+	footer
+	{
+		font-size:0.9em;
+	}
+
+	.logoM
+	{
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 660px)
+{
+	#Menu
+	{
+		font-size:0.8em;
+	}
+	#Menu h3 img
+	{
+		width:25%;
+
+	}
+
+	#Menu h3 span
+	{
+		font-size: 1.1em;
+
+	}
+}
+
+@media screen and (max-width: 565px)
 {
 	#Menu h3 img
 	{
-		width:20%;
+		margin:0px 7px;
+	}
+
+	.dessert .list
+	{
+		margin-right:50px;
+	
+	}
+
+	footer
+	{
+		font-size:0.7em;
+	}
+
+
+}
+
+@media screen and (max-width: 450px)
+{
+	#Menu h3 span
+	{
+		font-size: 1em;
+
 	}
 
 	#Menu h3
 	{
-		font-size: 1.64em;
-		margin-left: 0px;
 
-	}
-
-
-	.dessert .list
-	{
-		text-align: center;
-		margin-left:60px;
 	
+		margin-left: 40px;
 	}
+
+	.entree
+	{
+			
+			padding-right: 50px;
+	}
+	
+	.entree .prix
+	{
+
+		margin-left: 100px;
+	}
+
+
+	.plat
+	{
+			
+			padding-right: 50px;
+	}
+	
+	.plat .prix
+	{
+
+		margin-left: 100px;
+	}
+
+}
+
+@media screen and (max-width: 408px)
+{
+	
+	#Menu
+	{
+		font-size: 0.7em;
+	}
+	#Menu h3
+	{
+		font-size: 1.6em;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+
+	#Menu .plat h3
+	{
+		margin-left: 30px;
+
+	}
+
+	#Menu .entree h3
+	{
+		margin-left: 30px;
+	}
+
+	.logoM
+	{
+		font-size: 1.2em;
+	}
+
+	#infos p
+	{
+		font-size:1.5em;
+		margin: 20px 1px;
+	}
+
+	
 }
