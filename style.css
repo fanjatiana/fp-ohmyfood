@@ -296,6 +296,17 @@ header h1
 		width: auto;
 	}
 
+	.next
+	{
+		margin-top: 50px;
+		margin-bottom: 200px;
+	}
+
+}
+
+@media screen and (max-width: 800px)
+{
+	
 }
 
 @media screen and (max-width: 500px)
@@ -310,29 +321,53 @@ header h1
 
 	.Mnote i
 	{
-		margin-left: 250px;
+		margin-left: 280px;
+		margin-top: 200px;
+		margin-bottom: 0px;
 	}
 
-	#Menus .Mnote
+
+	.Mchic h2
 	{
-		margin-top: 100px;
+		padding-top: 300px;
+	}
+
+	.Mdelice h2
+	{
+		padding-top: 300px;
+	}
+
+	.Mpalette h2
+	{
+		padding-top: 300px;
 	}
 
 
+
+	.next
+	{
+		height: 100px;
+		margin-bottom: 300px;
+		margin-top: 50px;
+	}
+
+	.next h2
+	{
+		font-size: 2.3em;
+	}
+
+	
 	header
 	{
 		font-size: 2.8em;
 	}
 
-	footer
+	.infos
 	{
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 
-
-
 }
-
 	
 
 
