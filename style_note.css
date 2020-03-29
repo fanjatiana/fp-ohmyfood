@@ -326,8 +326,7 @@ body
 @media screen and (max-width: 870px)
 {
 	
-
-	
+	#Menu h3	
 	{
 		font-size:0.8em;
 	}
@@ -382,9 +381,6 @@ body
 		margin-left: 0px;
 		
 	}
-
-
-
 }
 
 @media screen and (max-width: 705px)
