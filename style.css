@@ -227,10 +227,10 @@ header h1
 
 
 			/*Pied de page*/
-footer
+.infos
 {
 
-	width: 100%;
+	width: auto;
 	height:auto;
 	background-color:#2F8D79 ;
 	display: flex;
@@ -267,34 +267,50 @@ footer
 
 
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1000px)
 {
-	/*body
-	{
-		
-		width: 100%;
-		
-	}
-	header
-	{
-		margin:auto;
-		width:100%;
-	}
-	
-*/
 	#Menus
 	{
 		flex-direction: column;
-		margin-bottom: 100px;
-		width: 100%;
-		
+
+	}
+	#Menus div
+	{
+		margin:20px auto;
 	}
 
-
-
-	#Menus section div
+	#Menus .Mnote
 	{
-		margin: 0px auto;
+		margin-top: 50px;
+	}
+
+	.infos
+	{
+		position:fixed;
+		bottom: 0px;
+		width: 97%;
+	}
+
+	.infos p
+	{
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width: 500px)
+{
+	#Menus div
+	{
+		width: 600px;
+		height:800px;
+		margin: 50px auto;
+		font-size: 2em;
+	}
+
+	.Mnote i
+	{
+		margin-left: 250px;
 	}
 
 	#Menus .Mnote
@@ -302,85 +318,25 @@ footer
 		margin-top: 100px;
 	}
 
-	footer
+
+	header
 	{
-		position: fixed;
-		bottom:0px;
-		width: 100%;
-		
+		font-size: 2.8em;
 	}
-
-	
-}
-
-@media screen and (max-width: 500px)
-{
-	header h1
-	{
-		font-size: 5em;
-	}
-
-	#Menus section div
-	{
-		margin: 0px auto;
-		width:600px;
-		height: 800px;
-		margin-bottom: 50px;
-		font-size: 2.5em;
-	}
-
-	#Menus .next
-	{
-		font-size: 1.8em;
-	}
-
 
 	footer
 	{
-		font-size: 1.8em;
-		width: 90%;
+		font-size: 2em;
 	}
 
 
 
-
 }
 
-@media screen and (max-width: 705px)
-{
-	
-
-}
-
-@media screen and (max-width: 660px)
-{
-	
-}
-
-@media screen and (max-width: 645px)
-{
-
-
-
-}
-
-@media screen and (max-width: 450px)
-{
-	
-
-}
-
-@media screen and (max-width: 408px)
-{
 	
 
 
-	
-}
 
-
-					
-				
 
 
 
