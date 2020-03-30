@@ -298,7 +298,16 @@ header h1
 		margin-left: 180px;
 	}
 
+	#Menus .Mnote
+	{
+		margin-top: 100px;
+	}
 
+	.next
+	{
+		margin-bottom: 200px;
+		margin-top: 50px;
+	}
 
 	.infos
 	{
@@ -321,7 +330,7 @@ header h1
 
 	header
 	{
-		width: 1150px;
+		width: 1156px;
 	}
 
 	#Menus div
@@ -351,9 +360,39 @@ header h1
 
 }
 
-@media screen and (max-width:400px)
-{
+@media screen and (max-width:340px)
 
+{
+	header
+	{
+		width: 1372px;
+	}
+
+		header h1
+	{
+		font-size: 6em;
+
+	}
+	.infos p
+	{
+		font-size: 5em;
+	}
+
+
+	#Menus div
+	{
+		margin:50px auto;
+		width: 800px;
+		height: 1000px;
+		font-size: 3em;
+		padding-top:50px;
+	}
+
+	.next
+	{
+		margin-bottom: 30px;
+		font-size: 1.82em;
+	}
 }
 
 	
