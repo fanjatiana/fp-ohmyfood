@@ -9,14 +9,17 @@ body
 
 			/*en-tête*/
 
-header
+.logo
 {
 	background-color:#2F8D79;
-	width: 100%;
+	width:100%;
+
+	
 }
 
-header h1
+.logo h1
 {
+	
 	color: #EAC645;
 	font-weight: bold;
 	text-align: center;
@@ -26,9 +29,9 @@ header h1
 
 #Menus
 {
-	width: 100%;
+	width:100%;
 	height:auto;
-	margin:auto;
+	margin:0px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -208,11 +211,13 @@ header h1
 
 .next
 {
-	margin:100px 400px;
+	margin:50px 400px;
+	margin-bottom:200px;
 	padding:5px 50px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
+	
 
 }
 
@@ -230,7 +235,10 @@ header h1
 .infos
 {
 
-	width: auto;
+	
+	position: fixed;
+	bottom:0px;
+	width:1024px;
 	height:auto;
 	background-color:#2F8D79 ;
 	display: flex;
@@ -265,154 +273,43 @@ header h1
 
 /*media quieries*/
 
-
-
-@media screen and (max-width: 1000px)
+@media screen and (max-width:1024px)
 {
+	.logo h1
+	{
+		font-size: 4em;
+	}
+
+
+
 	#Menus
 	{
 		flex-direction: column;
-
 	}
+
 	#Menus div
 	{
-		margin:20px auto;
-	}
-
-	#Menus .Mnote
-	{
-		margin-top: 50px;
-	}
-
-	.infos
-	{
-		position:fixed;
-		bottom: 0px;
-		width: 97%;
-	}
-
-	.infos p
-	{
-		width: auto;
-	}
-
-	.next
-	{
-		margin-top: 50px;
-		margin-bottom: 200px;
-	}
-
-}
-
-@media screen and (max-width: 800px)
-{
-	
-}
-
-@media screen and (max-width: 500px)
-{
-	#Menus div
-	{
-		width: 600px;
-		height:800px;
 		margin: 50px auto;
+		width: 500px;
+		height: 700px;
+
+	}
+
+	#Menus div h2,p
+	{
 		font-size: 2em;
+		padding: 300px auto;
 	}
-
-	.Mnote i
+	#Menus div i
 	{
-		margin-left: 280px;
-		margin-top: 200px;
-		margin-bottom: 0px;
+		margin-left: 230px;
+		font-size:4em;
 	}
-
-
-	.Mchic h2
-	{
-		padding-top: 300px;
-	}
-
-	.Mdelice h2
-	{
-		padding-top: 300px;
-	}
-
-	.Mpalette h2
-	{
-		padding-top: 300px;
-	}
-
-
-
-	.next
-	{
-		height: 100px;
-		margin-bottom: 300px;
-		margin-top: 50px;
-	}
-
-	.next h2
-	{
-		font-size: 2.3em;
-	}
-
-	
-	header
-	{
-		font-size: 2.8em;
-	}
-
-	.infos
-	{
-		font-size: 1.8em;
-	}
-
 }
+
+
+
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
