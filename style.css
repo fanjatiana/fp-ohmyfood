@@ -313,9 +313,9 @@ header h1
 	{
 		margin:auto;
 		position: fixed;
-		bottom:0;
+		bottom:0px;
 	}
-
+}
 
 
 	
@@ -357,18 +357,16 @@ header h1
 	{
 		font-size: 3em;
 	}
-
 }
 
 @media screen and (max-width:340px)
-
 {
 	header
 	{
 		width: 1372px;
 	}
 
-		header h1
+	header h1
 	{
 		font-size: 6em;
 
@@ -391,7 +389,7 @@ header h1
 	.next
 	{
 		margin-bottom: 30px;
-		font-size: 1.82em;
+		font-size: 1.8em;
 	}
 }
 
