@@ -1,6 +1,6 @@
 body
 {
-	width: 1055px;
+	width:2560px;
 	height: auto;
 	margin: auto;
 	display: flex;
@@ -12,7 +12,8 @@ body
 header
 {
 	background-color:#2F8D79;
-	width:100%
+	width:100%;
+	height:200px;
 
 	
 }
@@ -24,7 +25,7 @@ header h1
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
-	font-size: 3em;
+	font-size: 5em;
 }
 
 #Menus
@@ -69,14 +70,14 @@ header h1
 	border:1px black none;
 	box-shadow:1px 1px 5px 1px grey;
 	order:1;
-	width: 300px;
-	height: 400px;
+	width: 400px;
+	height:600px;
 	margin-top: 100px;
-	margin-left:170px;
-	margin-right: 30px;
+	margin-left:160px;
+	/*margin-right: 30px;*/
 	font-family: 'devonshire', Arial, serif;
 	font-style: italic;	
-	background-color: #F1DEDC ;	
+	background-color: #F1DEDC ;
 }
 
 .Mnote i
@@ -114,12 +115,12 @@ header h1
 	border:1px black none;
 	box-shadow:1px 1px 5px 1px grey;
 	order:2;
-	width: 300px;
-	height: 400px;
+	width: 400px;
+	height:600px;
 	font-family: 'Baloo 2', cursive;
 	background-color: #FCF5FE ;
 	margin-top: 100px;
-	margin-right: 170px;
+	/*margin-right: 170px;*/
 }
 
 .Mchic h2
@@ -147,10 +148,10 @@ header h1
 	border:1px black none;
 	box-shadow:1px 1px 5px 1px grey;
 	order:3;
-	width: 300px;
-	height: 400px;
-	margin-left:170px;
-	margin-top: 50px;
+	width: 400px;
+	height:600px;
+	/*margin-left:170px;*/
+	margin-top: 100px;
 	font-family: 'Great Vibes', cursive;
 	font-style: italic;
 	background-color: #ECF3F4;
@@ -180,10 +181,10 @@ header h1
 	border:1px black none;
 	box-shadow:1px 1px 5px 1px grey;
 	order:4;
-	width: 300px;
-	height: 400px;
-	margin-right: 170px;
-	margin-top: 50px;
+	width: 400px;
+	height:600px;
+	margin-right: 160px;
+	margin-top: 100px;
 	font-family:'Caveat', cursive;
 	font-style: italic;
 	background-color: #FEFEFE;	
@@ -212,7 +213,8 @@ header h1
 
 .next
 {
-	margin:100px 400px;
+	
+	margin:200px auto;
 	padding:5px 50px;
 	border:1px black none;
 	background-color: #2F8D79;
@@ -225,7 +227,7 @@ header h1
 {
 	color: #EAC645;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 
@@ -234,10 +236,12 @@ header h1
 			/*Pied de page*/
 .infos
 {
-
+	position: fixed;
+	bottom: 0;
+	width: 1903px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	width:100%;
 	height:auto;
 	background-color:#2F8D79 ;
@@ -247,8 +251,9 @@ header h1
 .Mlegales p
 {	
 	justify-content: flex-start;
+	margin-left: 50px;
 	text-align: center;
-	font-size: 2em;	
+	font-size: 2.3em;	
 }
 
 .Mlegales p a
@@ -260,7 +265,8 @@ header h1
  .contact p
 {
 	justify-content: flex-end;
-	font-size: 2em;	
+	margin-right: 50px;
+	font-size: 2.3em;	
 }
 
 .contact p a
@@ -269,132 +275,52 @@ header h1
 	color: #EAC645;
 }
 
-/*media quieries*/
-
-@media screen and (max-width:900px)
+@media screen and (max-width: 1580px)
 {
-	
-	header h1
-	{
-		font-size: 4em;
-	}
-
-	#Menus
-	{
-		flex-direction: column;
-	
-	}
-
 	#Menus div
 	{
-		margin:50px auto;
-		width: 400px;
-		height: 600px;
-		font-size: 1.5em;
-		padding-top:50px;
-	}
-
-	#Menus div i
-	{
-		margin-left: 180px;
-	}
-
-	#Menus .Mnote
-	{
-		margin-top: 100px;
-	}
-
-	.next
-	{
-		margin-bottom: 200px;
-		margin-top: 50px;
-	}
-
-	.infos
-	{
-		margin:auto;
-		position: fixed;
-		bottom:0px;
-	}
-}
-
-
-	
-
-@media screen and (max-width:700px)
-{
-	header h1
-	{
-		font-size: 5em;
-
-	}
-
-	header
-	{
-		width: 1156px;
-	}
-
-	#Menus div
-	{
-		margin:50px auto;
-		width: 600px;
-		height: 800px;
-		font-size: 2em;
-		padding-top:50px;
-	}
-
-	.next
-	{
-		margin-top: 30px;
-		margin-bottom: 300px;	
-	}
-
-	.next h2
-	{
-		font-size: 2.5em;
-	}
-
-	.infos p
-	{
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-width:340px)
-{
-	header
-	{
-		width: 1372px;
-	}
-
-	header h1
-	{
-		font-size: 6em;
-
-	}
-	.infos p
-	{
-		font-size: 5em;
-	}
-
-
-	#Menus div
-	{
-		margin:50px auto;
-		width: 800px;
-		height: 1000px;
-		font-size: 3em;
-		padding-top:50px;
-	}
-
-	.next
-	{
-		margin-bottom: 30px;
+		width: 500px;
+		height: 700px;
 		font-size: 1.8em;
 	}
 }
 
+@media screen and (max-width: 1440px)
+{
 	
 
+	#Menus div
+	{
+		width: 700px;
+		height: 900px;
+		font-size: 2em;
+	}
+
+	.Mnote
+	{
+		margin-left: 500px;
+		margin-top: 200px;
+	}
+
+	.Mchic
+	{
+		margin-right: 500px;
+		margin-top: 200px;
+	}
+
+	.Mdelice
+	{
+		margin-left: 500px;
+	}
 
 
+	.Mpalette
+	{
+		margin-right: 500px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+
+}
