@@ -74,7 +74,6 @@ header h1
 	height:600px;
 	margin-top: 100px;
 	margin-left:160px;
-	/*margin-right: 30px;*/
 	font-family: 'devonshire', Arial, serif;
 	font-style: italic;	
 	background-color: #F1DEDC ;
@@ -82,9 +81,9 @@ header h1
 
 .Mnote i
 {
-	font-size: 2em;
+	font-size: 4em;
 	margin-top:100px;
-	margin-left: 130px;
+	margin-left: 170px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );	
@@ -93,7 +92,7 @@ header h1
 .Mnote h2
 {
 	color: #5A3017 ;
-	font-size: 1.6em;
+	font-size: 3em;
 }
 
 .Mnote h2,p
@@ -104,7 +103,7 @@ header h1
 
 .Mnote p a
 {
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #5A3017 ;
 }
 
@@ -125,6 +124,7 @@ header h1
 
 .Mchic h2
 {
+	font-size: 2.4em;
 	text-align: center;
 	padding-top: 160px;
 	-webkit-background-clip: text;
@@ -137,7 +137,7 @@ header h1
 .Mchic p a
 {
 	color:#EA7F0D;
-	font-size: 2em;
+	font-size: 2.8em;
 	font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ header h1
 .Mdelice h2
 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.8em;
 	padding-top: 140px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -170,7 +170,7 @@ header h1
 .Mdelice p a
 {
 	color:#090675;
-	font-size: 2em;
+	font-size: 2.8em;
 }
 
 
@@ -197,13 +197,13 @@ header h1
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#0D9906, #E1FFCD);
-	font-size: 1.9em;
+	font-size: 3em;
 }
 
 .Mpalette p a
 {
 	color:#0D9906 ;
-	font-size: 2em;
+	font-size: 2.8em;
 }
 
 
@@ -277,11 +277,50 @@ header h1
 
 @media screen and (max-width: 1580px)
 {
+	body
+	{
+
+		width: auto;
+		
+	}
+	#Menus
+	{
+		width: 100%;
+	}
+
 	#Menus div
 	{
-		width: 500px;
-		height: 700px;
-		font-size: 1.8em;
+		width: 300px;
+		height: 500px;
+		font-size: 1em;
+	}
+
+	.Mnote
+	{
+		margin-left: 100px;
+		margin-top: 100px;
+	}
+
+	.Mchic
+	{
+		margin-right: 0px;
+		margin-top: 100px;
+	}
+
+	.Mdelice
+	{
+		margin-left: 0px;
+	}
+
+
+	.Mpalette
+	{
+		margin-right:100px;
+	}
+
+	.next
+	{
+		margin-top: 100px;
 	}
 }
 
@@ -291,36 +330,188 @@ header h1
 
 	#Menus div
 	{
-		width: 700px;
-		height: 900px;
-		font-size: 2em;
+		width: 400px;
+		height: 600px;
+		font-size: 1em;
 	}
 
 	.Mnote
 	{
-		margin-left: 500px;
-		margin-top: 200px;
+		margin-left: 250px;
+		margin-top: 100px;
 	}
 
 	.Mchic
 	{
-		margin-right: 500px;
-		margin-top: 200px;
+		margin-right: 250px;
+		margin-top: 100px;
 	}
 
 	.Mdelice
 	{
-		margin-left: 500px;
+		margin-left: 250px;
 	}
 
 
 	.Mpalette
 	{
-		margin-right: 500px;
+		margin-right: 250px;
 	}
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1305px)
 {
+		#Menus div
+	{
+		width: 400px;
+		height: 600px;
+		font-size: 1em;
+	}
+	.Mnote
+	{
+		margin-left: 200px;
+		margin-top: 100px;
+	}
+
+	.Mchic
+	{
+		margin-right: 200px;
+		margin-top: 100px;
+	}
+
+	.Mdelice
+	{
+		margin-left: 200px;
+	}
+
+	.Mpalette
+	{
+		margin-right: 200px;
+	}
+
+}
+
+@media screen and (max-width: 1200px)
+{
+	#Menus
+	{
+		flex-direction: column;
+	}
+	#Menus div
+	{
+		margin:100px auto;
+	}
+	.next
+	{
+		margin-top: 30px;
+	}
+
+}
+
+@media screen and (max-width: 600px)
+{
+	.infos
+	{
+		font-size: 0.8em;
+	}
+
+
+}
+
+
+@media screen and (max-width: 420px)
+{
+	header
+	{
+		height: auto;
+	}
+	header h1
+	{
+		font-size: 3em;
+	}
+	.infos
+	{
+		font-size: 0.8em;
+	}
+
+	#Menus div
+	{
+
+		width: 250px;
+		height:350px;
+		font-size: 0.7em;
+	}
+
+	.Mnote h2
+	{
+		margin-top: 0px;
+	}
+
+	.Mnote i
+	{
+		margin-top: 30px;
+		margin-left:100px;
+	}
+
+	#Menus div h2
+	{
+		padding-top: 50px;
+	}
+
+	.next h2
+	{
+		font-size: 1.5em;
+	}
+
+
+
+
+}
+@media screen and (max-width: 300px)
+{
+	#Menus div
+	{
+
+		width: 200px;
+		height:300px;
+	}
+}
+
+@media screen and (max-width: 240px)
+{
+	header
+	{
+		width:256px;
+	}
+
+	#Menus div
+	{
+		font-size: 1.1em;
+	}
+	#Menus div h2
+	{
+		padding-top: 50px;
+	}
+
+	.Mnote i
+	{
+		margin-top: 10px;
+
+
+
+
+	.Mlegales p
+	{
+		margin-left: 10px;
+	}
+	.contact p
+	{
+		margin-right: 10px;
+	}
+
+	.next h2
+	{
+		font-size: 1em;
+	}
 
 }
