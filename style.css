@@ -13,9 +13,7 @@ header
 {
 	background-color:#2F8D79;
 	width:100%;
-	height:200px;
-
-	
+	height:200px;	
 }
 
 header h1
@@ -36,8 +34,6 @@ header h1
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: #FEFEFE ;
-	;
 }
 
 #Menus section p a
@@ -132,8 +128,6 @@ header h1
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
 }
 
-
-
 .Mchic p a
 {
 	color:#EA7F0D;
@@ -219,8 +213,6 @@ header h1
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
-	
-
 }
 
 .next h2
@@ -244,8 +236,7 @@ header h1
 	justify-content: space-between;
 	width:100%;
 	height:auto;
-	background-color:#2F8D79 ;
-	
+	background-color:#2F8D79 ;	
 }
 
 .Mlegales p
@@ -312,7 +303,6 @@ header h1
 		margin-left: 0px;
 	}
 
-
 	.Mpalette
 	{
 		margin-right:100px;
@@ -327,7 +317,6 @@ header h1
 @media screen and (max-width: 1440px)
 {
 	
-
 	#Menus div
 	{
 		width: 400px;
@@ -361,12 +350,13 @@ header h1
 
 @media screen and (max-width: 1305px)
 {
-		#Menus div
+	#Menus div
 	{
 		width: 400px;
 		height: 600px;
 		font-size: 1em;
 	}
+
 	.Mnote
 	{
 		margin-left: 200px;
@@ -397,10 +387,12 @@ header h1
 	{
 		flex-direction: column;
 	}
+
 	#Menus div
 	{
 		margin:100px auto;
 	}
+
 	.next
 	{
 		margin-top: 30px;
@@ -415,24 +407,36 @@ header h1
 		font-size: 0.8em;
 	}
 
-
 }
 
 
-@media screen and (max-width: 420px)
+@media screen and (max-width: 425px)
 {
 	header
 	{
 		height: auto;
 	}
+
 	header h1
 	{
 		font-size: 3em;
 	}
+
 	.infos
 	{
-		font-size: 0.8em;
+		font-size: 0.5em;
 	}
+
+	.Mlegales p
+	{
+		margin-left: 5px;
+	}
+
+	.contact p
+	{
+		margin-right: 5px;
+	}
+
 
 	#Menus div
 	{
@@ -463,10 +467,8 @@ header h1
 		font-size: 1.5em;
 	}
 
-
-
-
 }
+
 @media screen and (max-width: 300px)
 {
 	#Menus div
@@ -486,8 +488,10 @@ header h1
 
 	#Menus div
 	{
-		font-size: 1.1em;
+		font-size: 0.5em;
+		margin: 50px auto;
 	}
+
 	#Menus div h2
 	{
 		padding-top: 50px;
@@ -495,15 +499,14 @@ header h1
 
 	.Mnote i
 	{
-		margin-top: 10px;
-
-
-
+		margin-top: 50px;
+	}
 
 	.Mlegales p
 	{
 		margin-left: 10px;
 	}
+
 	.contact p
 	{
 		margin-right: 10px;
@@ -513,5 +516,4 @@ header h1
 	{
 		font-size: 1em;
 	}
-
 }
