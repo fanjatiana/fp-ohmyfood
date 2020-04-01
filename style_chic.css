@@ -9,7 +9,6 @@ body
 }
 
 			/*en-tête*/
-
 #logo
 {
 	background-color:#2F8D79;
@@ -42,13 +41,13 @@ body
 	font-family: 'Baloo 2', cursive;
 }
 
-#Menu header
+#Menu .titremenu
 {
 	text-align: center;
 	margin: 20px 0px;
 }
 
-#Menu header h2
+#Menu .titremenu h2
 {
 	font-size: 3em;
 	-webkit-background-clip: text;
@@ -260,5 +259,40 @@ body
 	margin-right: 50px;
 	font-size: 2em;
 	color: #EAC645;
+}
+
+/*Media Quieries*/
+
+@media screen and (max-width: 1000px)
+{
+
+	#Menu h3
+	{
+		font-size: 2em;
+	}
+
+	#Menu div
+	{
+		flex-direction: column;
+		text-align: center;
+		margin:0px auto;
+		font-size: 1.1em;
+	}
+
+	#Menu .prix
+	{
+		margin: 0px auto;
+	}
+	.gateau
+	{
+		margin-bottom: 50px;
+	}
+	#infos
+	{
+		position: fixed;
+		bottom:0;
+		width: 100%;
+	}
+
 }
 
