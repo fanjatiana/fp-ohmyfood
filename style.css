@@ -267,8 +267,11 @@ header h1
 	color: #EAC645;
 }
 
-@media screen and (max-width: 2560px)
+
+
+@media screen and (max-width: 1580px)
 {
+	
 	
 	body
 	{
@@ -276,26 +279,6 @@ header h1
 		width: auto;
 		
 	}
-	
-}
-
-@media screen and (max-width: 2000px)
-{
-		#Menus div
-	{
-		width: 400px;
-		height: 600px;
-		font-size: 1em;
-	}
-
-	.next
-	{
-		margin-bottom: 0px;
-	}
-}
-
-@media screen and (max-width: 1970px)
-{
 	
 	#Menus
 	{
