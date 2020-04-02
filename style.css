@@ -1,6 +1,6 @@
 body
 {
-	width:2560px;
+	width:2260px;
 	height: auto;
 	margin: auto;
 	display: flex;
@@ -68,7 +68,7 @@ header h1
 	box-shadow:1px 1px 5px 1px grey;
 	order:1;
 	width: 400px;
-	height:600px;
+	height:500px;
 	margin-top: 100px;
 	margin-left:160px;
 	font-family: 'devonshire', Arial, serif;
@@ -112,7 +112,7 @@ header h1
 	box-shadow:1px 1px 5px 1px grey;
 	order:2;
 	width: 400px;
-	height:600px;
+	height:500px;
 	font-family: 'Baloo 2', cursive;
 	background-color: #FCF5FE ;
 	margin-top: 100px;
@@ -144,7 +144,7 @@ header h1
 	box-shadow:1px 1px 5px 1px grey;
 	order:3;
 	width: 400px;
-	height:600px;
+	height:500px;
 	/*margin-left:170px;*/
 	margin-top: 100px;
 	font-family: 'Great Vibes', cursive;
@@ -177,7 +177,7 @@ header h1
 	box-shadow:1px 1px 5px 1px grey;
 	order:4;
 	width: 400px;
-	height:600px;
+	height:500px;
 	margin-right: 160px;
 	margin-top: 100px;
 	font-family:'Caveat', cursive;
@@ -267,12 +267,8 @@ header h1
 	color: #EAC645;
 }
 
-
-
-/*@media screen and (max-width: 1580px)
+@media screen and (max-width: 2260px)
 {
-	
-	
 	body
 	{
 
@@ -280,18 +276,11 @@ header h1
 		
 	}
 	
-	#Menus
-	{
-		width: 100%;
-	}
+}
 
-	#Menus div
-	{
-		width: 300px;
-		height: 500px;
-		font-size: 1em;
-	}
 
+@media screen and (max-width: 2000px)
+{
 	.Mnote
 	{
 		margin-left: 100px;
@@ -320,19 +309,56 @@ header h1
 	}
 }
 
-@media screen and (max-width: 1440px)
+@media screen and (max-width: 1800px)
+{
+	#Menus div
+	{
+		width: 600px;
+		height: 800px;
+		font-size: 1em;
+	}
+
+	.Mnote
+	{
+		margin-left: 250px;
+		margin-top: 100px;
+	}
+
+	.Mchic
+	{
+		margin-right: 250px;
+		margin-top: 100px;
+	}
+
+	.Mdelice
+	{
+		margin-left: 250px;
+	}
+
+	.Mpalette
+	{
+		margin-right:250px;
+	}
+
+	.next
+	{
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 1700px)
 {
 	
 	#Menus div
 	{
-		width: 400px;
-		height: 600px;
+		width: 500px;
+		height: 700px;
 		font-size: 1em;
 	}
 
 	.Mnote
 	{
-		margin-left: 250px;
+		margin-left: 256px;
 		margin-top: 100px;
 	}
 
@@ -354,7 +380,7 @@ header h1
 	}
 }
 
-@media screen and (max-width: 1305px)
+@media screen and (max-width: 1510px)
 {
 	#Menus div
 	{
@@ -365,29 +391,29 @@ header h1
 
 	.Mnote
 	{
-		margin-left: 200px;
+		margin-left: 250px;
 		margin-top: 100px;
 	}
 
 	.Mchic
 	{
-		margin-right: 200px;
+		margin-right: 250px;
 		margin-top: 100px;
 	}
 
 	.Mdelice
 	{
-		margin-left: 200px;
+		margin-left: 250px;
 	}
 
 	.Mpalette
 	{
-		margin-right: 200px;
+		margin-right: 250px;
 	}
 
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1289px)
 {
 	#Menus
 	{
