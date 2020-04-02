@@ -16,8 +16,7 @@
 
 body
 {
-	margin: auto;
-	/*border: 1px black solid;*/
+	margin: 0px;	/*border: 1px black solid;*/
 	display: flex;
 	flex-direction: column;	
 }
@@ -34,7 +33,7 @@ body
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
-	font-size: 3em;
+	font-size: 9em;
 }
 
 #logo h1 a
@@ -46,7 +45,7 @@ body
 {
 	text-align: center;
 	margin-top: 50px;
-	font-size: 1.5em;
+	font-size: 3em;
 	
 }
 #Menu
@@ -55,7 +54,7 @@ body
 	width: 70%;
 	height:auto;
 	margin:auto;
-	margin-bottom:  100px;
+	margin-bottom:  200px;
 	display: flex;
 	flex-direction: column;
 	background-color:#F1DEDC   ;
@@ -72,7 +71,7 @@ body
 
 #Menu header h2
 {
-	font-size: 4em;	
+	font-size: 6em;	
 }
 
 #Menu header i
@@ -80,7 +79,8 @@ body
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-	font-size: 4em;
+	font-size: 10em;
+	margin-bottom: 0px;
 }
 
 /*prelude*/
@@ -88,18 +88,19 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size:3em;
+	font-size:4em;
 			
 }
 
 #Menu div
 {
-	font-size: 1.4em;
+	font-size: 1.8em;
+	margin-left: 160px;
 }
 
 #Menu .prix
 {
-	margin-right: 50px;
+	margin-right: 350px;
 }
 
 .entree h3 img
@@ -143,8 +144,8 @@ body
 
 .entree .list
 {	
-	width: 900px;
 	
+	width: 100%;
 }
 
 /*point d'orgue*/
@@ -183,12 +184,13 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+
 }
 
 
 .plat .list
 {	
-	width: 900px;
+	width: 100%;
 	
 }
 
@@ -198,6 +200,7 @@ body
 {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 }
 
 .dessert h3
@@ -211,14 +214,18 @@ body
 }
 
 
-.dessert .list ul
+.dessert ul 
 {
-	list-style-type: none;
-	width: 900px;
-	margin-left:200px;
-	font-size: 1.4em;
-	
+	flex-direction:column;
+	list-style-type: none;			
 }
+
+.dessert div
+{
+	width: 900px;
+	margin-left:110px;
+}
+
 
 #Menu footer
 {
@@ -228,7 +235,7 @@ body
 
 #Menu footer i
 {
-	font-size: 1.8em;
+	font-size:2em;
 	margin-right: 20px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -237,14 +244,16 @@ body
 
 #Menu footer p
 {
-	font-size: 3em;
+	font-size: 5em;
 }
 
 
 			/*Pied de page*/
 #infos
 {
-	width: auto;
+	position: fixed;
+	bottom:0;
+	width: 100%;
 	height:auto;
 	display: flex;
 	justify-content: space-between;
@@ -255,7 +264,7 @@ body
 {	
 	text-align: center;
 	margin-left: 50px;
-	font-size: 2em;
+	font-size: 4em;
 	color:#EAC645;	
 }
 
@@ -273,294 +282,198 @@ body
  .contact p
 {
 	margin-right: 50px;
-	font-size: 2em;
+	font-size: 4em;
 	color: #EAC645;
 }
 
 
 
-/*media quieries*/
+/*media queries*/
 
-
-
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 2560px)
 {
 	body
 	{
-		width: 100%;
+		width: auto;
 	}
 
-	header
+	#Menu div
 	{
-		width:100%;
+		margin-left:70px;
+		
 	}
 
-	#infos
+		#Menu .prix
 	{
-		position: fixed;
-		bottom:0px;
-		width: 100%;
-
+		margin-right: 200px;
 	}
+}
 
-	#Menu
-	{	
-		margin-bottom: 150px;
-		width: 90%;
-
+@media screen and (max-width: 1920px)
+{
+	#Menu div
+	{
+		margin-left: 30px;
+		
 	}
 
 	#Menu .prix
 	{
-		margin-right: 60px;
+		margin-right: 100px;
 	}
 
-	.dessert .list
-	{
-		width: auto;
-		margin-left: 50px;
+	#Menu footer i
+{
+	font-size:1.8em;
 
-	}
 
-	
 }
 
-@media screen and (max-width: 870px)
+@media screen and (max-width: 1680px)
 {
 	
-	#Menu h3	
+	#logo h1
 	{
-		font-size:0.8em;
+		font-size: 5em;
 	}
+
+	.nom_menu h2
+	{
+		font-size: 1.4em;
+	}
+
+	#Menu header h2
+	{
+		font-size: 3em;
+	}
+
+	#Menu header i
+	{
+		font-size: 8em;
+	}	
+
+	#Menu h3
+	{
+	text-align: center;
+	font-size:2.4em;
+			
+	}
+
 	#Menu h3 img
-	{
-		width:25%;
-
-	}
-
-	#Menu h3 span
-	{
-		font-size: 1.2em;
-
-	}
-	
-
-	.entree div
-	{
-		flex-direction: column;
-
-	}
-
-	.entree .list
-	{
-		text-align: center;
-	
-		width: 100%;
-	}
-
-	.prix
-	{
-		text-align: center;
-		margin-left: 50px;
-	}
-	
-
-	.plat div
-	{
-		flex-direction: column;
-	}
-
-	.plat .list
-	{
-		text-align: center;
-	
-		width: 100%;
-	}
-
-	.dessert .list
-	{
-		text-align: center;
-		margin-left: 0px;
-		
-	}
+{
+	width: 30%;
+	margin:0 50px;
 }
 
-@media screen and (max-width: 705px)
-{
-	
-	#Menu
+	#Menu .logoM i
 	{
-		font-size:0.8em;
-	}
-	#Menu h3 img
-	{
-		width:25%;
-
+		font-size: 1.4em;
 	}
 
-	#Menu h3 span
+	#Menu .logoM p
 	{
-		font-size: 1.2em;
-
+		font-size: 3em;
 	}
 
-	.entree
+	#Menu div
 	{
-		
-		margin-bottom: 20px;
-
+		font-size: 1.4em;
 	}
 
-	.plat
-	{
-		margin-bottom: 20px;
-
-	}
-	.dessert .list
-	{
-		text-align: center;
-		padding: 0px;
-	}
-
-	footer
-	{
-		font-size:0.9em;
-	}
-
-	.logoM
+	#infos div p
 	{
 		font-size: 1.3em;
 	}
+
 }
 
-@media screen and (max-width: 660px)
+@media screen and (max-width: 1440px)
 {
-	#Menu
+	#infos div p
+	{
+		font-size: 2em;
+	}
+
+
+	#Menu h3
+	{
+	text-align: center;
+	font-size:2.2em;
+			
+	}
+
+	#Menu h3 img
+{
+	width: 30%;
+	margin:0 20px;
+}
+
+	#Menu div
+	{
+
+	font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+
+	#logo
+	{
+		width: 100%;
+	}
+
+	.nom_menu h2
 	{
 		font-size:0.8em;
 	}
-	#Menu h3 img
-	{
-		width:25%;
 
-	}
-
-	#Menu h3 span
-	{
-		font-size: 1.1em;
-
-	}
-}
-
-@media screen and (max-width: 645px)
-{
-	#Menu h3 img
-	{
-		margin:0px 7px;
-	}
-
-	.dessert .list
-	{
-		margin-right:50px;
-	
-	}
-
-	footer
-	{
-		font-size:0.7em;
-	}
-
-
-}
-
-@media screen and (max-width: 450px)
-{
-	#Menu h3 span
-	{
-		font-size: 1em;
-
-	}
-
-	#Menu h3
-	{
-
-	
-		margin-left: 40px;
-	}
-
-	.entree
-	{
-			
-			padding-right: 50px;
-	}
-	
-	.entree .prix
-	{
-
-		margin-left: 100px;
-	}
-
-
-	.plat
-	{
-			
-			padding-right: 50px;
-	}
-	
-	.plat .prix
-	{
-
-		margin-left: 100px;
-	}
-
-}
-
-@media screen and (max-width: 408px)
-{
-	
 	#Menu
 	{
-		font-size: 0.7em;
+		width: 80%;
 	}
+
+	#Menu header i
+	{
+		font-size: 5em;
+	}
+
 	#Menu h3
 	{
-		font-size: 1.6em;
-		width: 100%;
+		font-size: 2.7em;
+	}
+	#Menu div
+	{
+		flex-direction: column;
+		font-size: 1.4em;
+	}
+
+	#Menu div ul
+	{
+		text-align: center;
 		margin-left: 0px;
-	}
-
-
-	#Menu .plat h3
-	{
-		margin-left: 30px;
-
-	}
-
-	#Menu .entree h3
-	{
-		margin-left: 30px;
-	}
-
-	.logoM
-	{
-		font-size: 1.2em;
-	}
-
-	#infos p
-	{
-		font-size:1.5em;
-		margin:20px 10px;
-	}
-
-	@media screen and (max-width: 270px)
-	{
-		#Menu h3 img
-		{
-			margin:0px 5px;
-		}
-
+		margin-right: 100px;
 		
+			
 	}
 
+	#Menu .prix
+	{
+		margin-right: 0px;
+		text-align: center;
+		margin-right: 50px;
+	}
+
+		#Menu h3 img
+	{
+		width: 30%;
+		margin:0 5px;
+	}
+
+	#Menu .dessert li
+	{
+		margin-right: 100px;
+	}
 	
 }
+
