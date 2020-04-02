@@ -16,8 +16,6 @@
 
 body
 {
-	width: 1024px;
-	height: auto;
 	margin: auto;
 	/*border: 1px black solid;*/
 	display: flex;
@@ -44,13 +42,20 @@ body
 	color: #EAC645;
 	text-decoration: none;
 }
-
+.nom_menu
+{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.5em;
+	
+}
 #Menu
 {
 	border:1px black none;
-	width: 80%;
+	width: 70%;
 	height:auto;
-	margin: 50px auto;
+	margin:auto;
+	margin-bottom:  100px;
 	display: flex;
 	flex-direction: column;
 	background-color:#F1DEDC   ;
@@ -62,11 +67,12 @@ body
 {
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #Menu header h2
 {
-	font-size: 3em;	
+	font-size: 4em;	
 }
 
 #Menu header i
@@ -82,19 +88,24 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size: 1.8em;
-	margin: 0 30px;		
+	font-size:3em;
+			
 }
 
 #Menu div
 {
-	font-size: 1.2em;
+	font-size: 1.4em;
+}
+
+#Menu .prix
+{
+	margin-right: 50px;
 }
 
 .entree h3 img
 {
 	width: 30%;
-	margin:0 50px;
+	margin:0 80px;
 }
 .entree div ul
 {
@@ -132,7 +143,7 @@ body
 
 .entree .list
 {	
-	width: 60%;
+	width: 900px;
 	
 }
 
@@ -145,7 +156,7 @@ body
 .plat h3 img
 {
 	width: 30%;
-	margin:0 40px;
+	margin:0 50px;
 }
 
 .plat div ul
@@ -174,16 +185,10 @@ body
 	justify-content: space-around;
 }
 
-/*.plat .prix
-{
-	width:10%;
-	margin-right: 50px;	
-}
-*/
 
 .plat .list
 {	
-	width: 60%;
+	width: 900px;
 	
 }
 
@@ -202,19 +207,16 @@ body
 .dessert  h3 img
 {
 	width: 30%;
-	margin:0 20px;
+	margin:0 10px;
 }
 
 
-.dessert div ul
+.dessert .list ul
 {
 	list-style-type: none;
-}
-
-.dessert .list
-{	
-	width: 70%;
-	margin-left: 70px;
+	width: 900px;
+	margin-left:200px;
+	font-size: 1.4em;
 	
 }
 
@@ -235,7 +237,7 @@ body
 
 #Menu footer p
 {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 
