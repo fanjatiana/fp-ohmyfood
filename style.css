@@ -1,6 +1,6 @@
 body
 {
-	width:2260px;
+	width:100%;
 	height: auto;
 	margin: auto;
 	display: flex;
@@ -13,7 +13,6 @@ header
 {
 	background-color:#2F8D79;
 	width:100%;
-	height:200px;	
 }
 
 header h1
@@ -23,7 +22,7 @@ header h1
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
-	font-size: 5em;
+	font-size: 60px;
 }
 
 #Menus
@@ -37,7 +36,7 @@ header h1
 	background-color: #FFFFFF;
 }
 
-#Menus section p a
+#Menus section  a
 {
 	text-decoration: none;
 }
@@ -89,7 +88,7 @@ header h1
 .Mnote h2
 {
 	color: #5A3017 ;
-	font-size: 3em;
+	font-size: 30px;
 }
 
 .Mnote h2,p
@@ -98,9 +97,9 @@ header h1
 	color: #5A3017 ;
 }
 
-.Mnote p a
+.Mnote p 
 {
-	font-size: 3em;
+	font-size:50px;
 	color: #5A3017 ;
 }
 
@@ -121,18 +120,18 @@ header h1
 
 .Mchic h2
 {
-	font-size: 2.4em;
+	font-size: 30px;
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
 }
 
-.Mchic p a
+.Mchic p
 {
 	color:#EA7F0D;
-	font-size: 2.8em;
+	font-size:40px;
 	font-weight: bold;
 }
 
@@ -155,17 +154,17 @@ header h1
 .Mdelice h2
 {
 	text-align: center;
-	font-size: 2.8em;
-	padding-top: 140px;
+	font-size: 30px;
+	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
 }
 
-.Mdelice p a
+.Mdelice p
 {
 	color:#090675;
-	font-size: 2.8em;
+	font-size: 40px;
 }
 
 
@@ -188,17 +187,17 @@ header h1
 .Mpalette h2
 {
 	text-align: center;
-	padding-top: 140px;
+	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#0D9906, #E1FFCD);
-	font-size: 3em;
+	font-size: 30px;
 }
 
-.Mpalette p a
+.Mpalette p 
 {
 	color:#0D9906 ;
-	font-size: 2.8em;
+	font-size: 40px;
 }
 
 
