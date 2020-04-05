@@ -313,9 +313,9 @@ header h1
 	#Menus div
 	{
 		width: 600px;
-		height: 800px;
-		font-size: 1em;
+		height: 700px;	
 	}
+
 
 	.Mnote
 	{
@@ -323,22 +323,45 @@ header h1
 		margin-top: 100px;
 	}
 
+	.Mnote i
+	{
+		margin-top: 180px;
+	}
+
+	#Menus div h2,p
+	{
+		font-size: 50px;
+
+	}
+
 	.Mchic
 	{
-		margin-right: 250px;
+		margin-right: 260px;
 		margin-top: 100px;
+	}
+
+	.Mchic h2
+	{
+		padding-top: 250px;
 	}
 
 	.Mdelice
 	{
 		margin-left: 250px;
 	}
+	.Mdelice h2
+	{
+		padding-top: 250px;
+	}
 
 	.Mpalette
 	{
 		margin-right:250px;
 	}
-
+	.Mpalette h2
+	{
+		padding-top: 250px;
+	}
 	.next
 	{
 		margin-top: 100px;
@@ -351,14 +374,24 @@ header h1
 	#Menus div
 	{
 		width: 500px;
-		height: 700px;
-		font-size: 1em;
+		height: 600px;
 	}
 
+	#Menus div h2,p
+	{
+		font-size: 40px;
+
+	}
 	.Mnote
 	{
 		margin-left: 256px;
 		margin-top: 100px;
+	}
+
+	.Mnote i
+	{
+		margin-top: 100px;
+		margin-left: 230px;
 	}
 
 	.Mchic
@@ -367,15 +400,27 @@ header h1
 		margin-top: 100px;
 	}
 
+	.Mchic h2
+	{
+		padding-top: 180px;
+	}
+
 	.Mdelice
 	{
 		margin-left: 250px;
 	}
-
+	.Mdelice h2
+	{
+		padding-top: 200px;
+	}
 
 	.Mpalette
 	{
 		margin-right: 250px;
+	}
+	.Mpalette h2
+	{
+		padding-top: 200px;
 	}
 }
 
@@ -384,14 +429,26 @@ header h1
 	#Menus div
 	{
 		width: 400px;
-		height: 600px;
-		font-size: 1em;
+		height: 500px;
+	}
+
+	#Menus div h2,p
+	{
+		font-size: 35px;
+
+
 	}
 
 	.Mnote
 	{
 		margin-left: 250px;
 		margin-top: 100px;
+	}
+
+	.Mnote i
+	{
+		font-size: 60px;
+		margin-left: 170px;
 	}
 
 	.Mchic
@@ -421,7 +478,7 @@ header h1
 
 	#Menus div
 	{
-		margin:100px auto;
+		margin:50px auto;
 	}
 
 	.next
@@ -477,20 +534,30 @@ header h1
 		font-size: 0.7em;
 	}
 
-	.Mnote h2
+	#Menus div h2,p
 	{
-		margin-top: 0px;
+		font-size: 30px;
 	}
+	.Mchic h2
+	{
+		padding-top: 50px;
+	}
+
+	.Mdelice h2
+	{
+		padding-top: 80px;
+	}
+	.Mpalette h2
+	{
+		padding-top: 80px;
+	}
+	
 
 	.Mnote i
 	{
 		margin-top: 30px;
 		margin-left:100px;
-	}
-
-	#Menus div h2
-	{
-		padding-top: 50px;
+		font-size:50px;
 	}
 
 	.next h2
@@ -512,16 +579,14 @@ header h1
 
 @media screen and (max-width: 240px)
 {
-	header
-	{
-		width:256px;
-	}
+	
 
 	#Menus div
 	{
 		font-size: 0.5em;
 		margin: 50px auto;
 	}
+
 
 	#Menus div h2
 	{
@@ -530,17 +595,19 @@ header h1
 
 	.Mnote i
 	{
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 
 	.Mlegales p
 	{
 		margin-left: 10px;
+		font-size: 20px;
 	}
 
 	.contact p
 	{
 		margin-right: 10px;
+		font-size: 20px;
 	}
 
 	.next h2
