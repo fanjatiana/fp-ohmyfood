@@ -10,12 +10,12 @@ body
 
 			/*en-tête*/
 
-#logo
+.logo
 {
 	background-color:#2F8D79;
 }
 
-#logo h1
+.logo h1
 {
 	font-weight: bold;
 	text-align: center;
@@ -23,7 +23,7 @@ body
 	font-size: 3em;
 }
 
-#logo h1 a
+.logo h1 a
 {
 	color: #EAC645;
 	text-decoration: none;
@@ -210,7 +210,7 @@ body
 
 
 			/*Pied de page*/
-#infos
+.infos
 {
 	width: auto;
 	height:auto;

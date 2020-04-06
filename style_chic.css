@@ -1,21 +1,19 @@
 body
 {
-	width: 1024px;
 	height: auto;
 	margin: auto;
-	/*border: 1px black solid;*/
 	display: flex;
 	flex-direction: column;
 }
 
 			/*en-tête*/
-#logo
+.logo
 {
 	background-color:#2F8D79;
 }
 
 
-#logo h1
+.logo h1
 {
 	font-weight: bold;
 	text-align: center;
@@ -23,10 +21,17 @@ body
 	font-size: 3em;
 }
 
-#logo h1 a
+.logo h1 a
 {
 	color: #EAC645;
 	text-decoration: none;
+}
+
+ .nom_menu
+{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.2em;	
 }
 
 #Menu
@@ -66,7 +71,7 @@ body
 }
 .entree h3 img
 {
-	width: 25%;
+	width: 20%;
 }
 
 .entree
@@ -222,9 +227,11 @@ body
 
 
 			/*Pied de page*/
-#infos
+.infos
 {
-	width: auto;
+	position: fixed;
+	bottom:0;
+	width: 100%;
 	height:auto;
 	display: flex;
 	justify-content: space-between;
@@ -261,38 +268,415 @@ body
 	color: #EAC645;
 }
 
-/*Media Quieries*/
+/*media queries*/
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 2560px)
 {
+	
+	#Menu div
+	{
+		margin-left:70px;
+		
+	}
+
+	#Menu
+	{
+		margin-bottom:400px;
+	}
+
+		#Menu .prix
+	{
+		margin-right: 200px;
+	}
+}
+
+@media screen and (max-width: 1920px)
+{
+	#Menu div
+	{
+		margin-left: 30px;
+		
+	}
+
+	#Menu .prix
+	{
+		margin-right: 100px;
+	}
+
+	#Menu footer i
+	{
+		font-size:1.8em;
+	}
+
+
+}
+
+@media screen and (max-width: 1680px)
+{
+	
+	.logo h1
+	{
+		font-size: 5em;
+	}
+
+	.nom_menu h2
+	{
+		font-size: 1.4em;
+	}
+
+	#Menu
+	{
+		margin-bottom:300px;
+	}
+
+	#Menu header h2
+	{
+		font-size: 3em;
+	}
+
+	#Menu header i
+	{
+		font-size: 8em;
+	}	
 
 	#Menu h3
 	{
+		text-align: center;
+		font-size:2em;		
+	}
+
+	#Menu h3 img
+	{
+		width: 25%;
+		margin:0 50px;
+	}
+
+	#Menu .logoM i
+	{
+		font-size: 1.4em;
+	}
+
+	#Menu .logoM p
+	{
+		font-size: 3em;
+	}
+
+	#Menu div
+	{
+		font-size: 1.4em;
+	}
+
+	.infos div p
+	{
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (max-width: 1440px)
+{
+	.infos div p
+	{
 		font-size: 2em;
+	}
+	
+	#Menu h3
+	{
+		text-align: center;
+		font-size:2em;
+			
+	}
+
+	#Menu h3 img
+	{
+		width: 25%;
+		margin:0 20px;
+	}
+
+	#Menu div
+	{
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+
+	.nom_menu h2
+	{
+		font-size:1.5em;
+	}
+
+	#Menu
+	{
+		width: 80%;
+	}
+
+	#Menu header i
+	{
+		font-size: 5em;
+	}
+
+	#Menu h3 span
+	{
+		font-size: 25px;
+
 	}
 
 	#Menu div
 	{
 		flex-direction: column;
+		font-size: 1.2em;
+		margin: 0px auto;
+	=
+	}
+
+	#Menu div ul
+	{
 		text-align: center;
-		margin:0px auto;
-		font-size: 1.1em;
+			
 	}
 
 	#Menu .prix
 	{
-		margin: 0px auto;
+		margin:0px auto;
+		text-align: center;
+		
 	}
-	.gateau
+
+		#Menu h3 img
 	{
-		margin-bottom: 50px;
+		width: 25%;
+		margin:0 5px;
 	}
-	#infos
+}
+
+
+
+@media screen and (max-width: 767px)
+{
+	
+	#Menu h3 span
+	{	
+		font-size: 20px;
+	}
+
+		#Menu h3 img
 	{
-		position: fixed;
-		bottom:0;
-		width: 100%;
+		width: 20%;
+		margin:0 5px;
+	}
+
+	#Menu div
+	{
+		font-size: 40px;
+	}
+
+	#Menu header
+	{
+		font-size: 1.4em;
+	}
+
+	#Menu footer
+	{
+		font-size: 1.4em;
+	}
+
+	.infos div p
+	{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	#Menu span
+	{	
+		font-size:40px;
+	}
+
+	.infos div p
+	{
+		font-size: 30px;
 	}
 
 }
 
+@media screen and (max-width: 425px)
+{
+	.logo
+	{
+		font-size: 0.8em;
+	}
+
+	.nom_menu h2
+	{
+		font-size:1.9em;
+	}
+
+
+	#Menu header
+	{
+		font-size: 1em;
+	}
+	#Menu span
+	{	
+		font-size:35px;
+	}
+
+	#Menu h3 img
+	{	
+		width: 20%;
+	}
+
+	#Menu div
+	{
+		font-size: 30px;
+		margin-left: 25px;
+	}
+
+	#Menu footer
+	{
+		font-size: 0.9em;
+	}
+
+	.infos div p
+	{
+		font-size: 20px;
+
+	}
+
+	.Mlegales p
+	{
+		margin-left: 40px;
+	}
+
+	.contact p
+	{
+		margin-right:10px;
+	}
+
+}
+
+@media screen and (max-width: 375px)
+{
+	
+	#Menu header
+	{
+		font-size: 0.7em;
+		margin-bottom: 0px;
+	}
+
+	#Menu
+	{
+		margin-bottom: 150px;
+	}
+	
+
+	#Menu div
+	{
+		font-size: 30px;
+		margin-left: 20px;
+
+	}
+
+	#Menu span
+	{	
+		font-size:30px;
+	}
+
+	#Menu footer
+	{
+		font-size: 0.6em;
+	}
+
+	.infos div p
+	{
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 320px)
+{
+	#Menu span
+	{	
+		font-size:25px;
+	}
+
+	.infos div p
+	{
+		font-size: 18px;
+	}
+
+	.nom_menu h2
+	{
+		font-size: 0.3em;
+	}
+
+	.logo h1
+	{
+		font-size:2.8em;
+	}
+}
+
+@media screen and (max-width: 240px)
+{
+	.logo h1
+	{
+		font-size:3em;
+	}
+
+	.nom_menu h2
+	{
+		font-size: 0.5em;
+	}
+
+	#Menu header
+	{
+		font-size: 0.6em;
+		margin-bottom: 0px;
+	}
+
+	#Menu
+	{
+		margin-bottom: 50px;
+	}
+	#Menu h3 img
+	{	
+		width: 15%;
+	}
+
+	#Menu h3
+	{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	#Menu span
+	{
+		font-size: 20px;
+	}
+
+	#Menu div
+	{
+		margin-left: 10px;
+		width: 100%;
+		font-size: 17px;
+	}
+
+	#Menu .prix p
+	{
+		margin-right:  50px;
+	}
+
+	#Menu footer
+	{
+		font-size: 0.5em;
+	}
+
+	.infos div p
+	{
+		font-size: 15px;
+	}
+}
