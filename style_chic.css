@@ -197,13 +197,7 @@ body
 	list-style-type: none;
 }
 
-.dessert .list
-{
-	
-	width: 100%;
-	margin-right: 30px;
-	margin-left: 50px;
-}
+
 
 
 .gateau
@@ -404,13 +398,16 @@ body
 
 	.nom_menu h2
 	{
-		font-size:1.5em;
+		font-size:1.8em;
 	}
 
 	#Menu
 	{
 		width: 80%;
+		margin-bottom: 50px;
 	}
+
+
 
 	#Menu header i
 	{
@@ -427,8 +424,9 @@ body
 	{
 		flex-direction: column;
 		font-size: 1.2em;
-		margin: 0px auto;
-	=
+		margin-left: 10px;
+		
+	
 	}
 
 	#Menu div ul
@@ -443,6 +441,7 @@ body
 		text-align: center;
 		
 	}
+
 
 		#Menu h3 img
 	{
@@ -492,7 +491,7 @@ body
 {
 	#Menu span
 	{	
-		font-size:40px;
+		font-size:50px;
 	}
 
 	.infos div p
@@ -511,13 +510,13 @@ body
 
 	.nom_menu h2
 	{
-		font-size:1.9em;
+		font-size:2em;
 	}
 
 
 	#Menu header
 	{
-		font-size: 1em;
+		font-size: 100px;
 	}
 	#Menu span
 	{	
