@@ -31,7 +31,8 @@ body
 {
 	text-align: center;
 	margin-top: 50px;
-	font-size: 1.2em;	
+	font-size: 20px;
+	margin-bottom: 0px;	
 }
 
 #Menu
@@ -54,7 +55,7 @@ body
 
 #Menu .titremenu h2
 {
-	font-size: 3em;
+	font-size: 50px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA   );
@@ -67,7 +68,7 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 25px;
 }
 .entree h3 img
 {
@@ -269,7 +270,8 @@ body
 	
 	#Menu div
 	{
-		margin-left:70px;
+		margin-left:50px;
+		font-size: 20px;
 		
 	}
 
@@ -280,7 +282,7 @@ body
 
 		#Menu .prix
 	{
-		margin-right: 200px;
+		margin-right: 250px;
 	}
 }
 
@@ -315,7 +317,7 @@ body
 
 	.nom_menu h2
 	{
-		font-size: 1.4em;
+		font-size: 40px;
 	}
 
 	#Menu
@@ -336,7 +338,7 @@ body
 	#Menu h3
 	{
 		text-align: center;
-		font-size:2em;		
+		font-size:30px;		
 	}
 
 	#Menu h3 img
@@ -357,7 +359,7 @@ body
 
 	#Menu div
 	{
-		font-size: 1.4em;
+		font-size: 25px;
 	}
 
 	.infos div p
@@ -389,7 +391,7 @@ body
 
 	#Menu div
 	{
-		font-size: 1.3em;
+		font-size: 20px;
 	}
 }
 
@@ -457,7 +459,7 @@ body
 	
 	#Menu h3 span
 	{	
-		font-size: 20px;
+		font-size:20px;
 	}
 
 		#Menu h3 img
@@ -468,7 +470,7 @@ body
 
 	#Menu div
 	{
-		font-size: 40px;
+		font-size: 0.8em;
 	}
 
 	#Menu header
@@ -489,10 +491,7 @@ body
 
 @media screen and (max-width: 600px)
 {
-	#Menu span
-	{	
-		font-size:50px;
-	}
+	
 
 	.infos div p
 	{
