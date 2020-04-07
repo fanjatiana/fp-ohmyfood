@@ -16,7 +16,8 @@
 
 body
 {
-	margin: 0px;	/*border: 1px black solid;*/
+	height: auto;
+	margin: auto;	/*border: 1px black solid;*/
 	display: flex;
 	flex-direction: column;	
 }
@@ -33,7 +34,7 @@ body
 	font-weight: bold;
 	text-align: center;
 	font-family:Times New Roman;
-	font-size: 9em;
+	font-size: 100px;
 }
 
 .logo h1 a
@@ -46,7 +47,8 @@ body
 {
 	text-align: center;
 	margin-top: 50px;
-	font-size: 3em;	
+	font-size: 40px;
+	margin-bottom: 0px;		
 }
 
 #Menu
@@ -55,12 +57,13 @@ body
 	width: 70%;
 	height:auto;
 	margin:auto;
-	margin-bottom:  200px;
+	margin-bottom:  400px;
 	display: flex;
 	flex-direction: column;
 	background-color:#F1DEDC   ;
 	font-family: 'devonshire', Arial, serif;
 	color:#5A3017;
+
 }
 
 #Menu header
@@ -72,7 +75,7 @@ body
 
 #Menu header h2
 {
-	font-size: 6em;	
+	font-size: 100px;	
 }
 
 #Menu header i
@@ -80,7 +83,7 @@ body
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-	font-size: 10em;
+	font-size: 90px;
 	margin-bottom: 0px;
 }
 
@@ -91,13 +94,13 @@ body
 #Menu h3
 {
 	text-align: center;
-	font-size:4em;
+	font-size:90px;
 			
 }
 
 #Menu div
 {
-	font-size: 1.8em;
+	font-size: 60px;
 	margin-left: 160px;
 }
 
@@ -243,7 +246,7 @@ body
 
 #Menu footer i
 {
-	font-size:2em;
+	font-size:80px;
 	margin-right: 20px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -252,7 +255,7 @@ body
 
 #Menu footer p
 {
-	font-size: 5em;
+	font-size: 80px;
 }
 
 
@@ -318,7 +321,6 @@ body
 		margin-right: 200px;
 	}
 }
-
 @media screen and (max-width: 1920px)
 {
 	#Menu div
@@ -334,7 +336,7 @@ body
 
 	#Menu footer i
 	{
-		font-size:1.8em;
+		font-size:80px;
 	}
 
 
@@ -345,12 +347,12 @@ body
 	
 	.logo h1
 	{
-		font-size: 5em;
+		font-size: 80px;
 	}
 
 	.nom_menu h2
 	{
-		font-size: 1.4em;
+		font-size: 50px;
 	}
 
 	#Menu
@@ -360,39 +362,39 @@ body
 
 	#Menu header h2
 	{
-		font-size: 3em;
+		font-size: 80px;
 	}
 
 	#Menu header i
 	{
-		font-size: 8em;
+		font-size: 80px;
 	}	
 
 	#Menu h3
 	{
 		text-align: center;
-		font-size:2.4em;		
+		font-size:45px;		
 	}
 
 	#Menu h3 img
 	{
-		width: 30%;
+		width: 25%;
 		margin:0 50px;
 	}
 
 	#Menu .logoM i
 	{
-		font-size: 1.4em;
+		font-size:40px;
 	}
 
 	#Menu .logoM p
 	{
-		font-size: 3em;
+		font-size: 50px;
 	}
 
 	#Menu div
 	{
-		font-size: 1.4em;
+		font-size: 40px;
 	}
 
 	.infos div p
@@ -411,13 +413,13 @@ body
 
 	.infos div p
 	{
-		font-size: 2em;
+		font-size: 35px;
 	}
 	
 	#Menu h3
 	{
 		text-align: center;
-		font-size:2.2em;
+		font-size:40px;
 			
 	}
 
@@ -429,7 +431,7 @@ body
 
 	#Menu div
 	{
-		font-size: 1.3em;
+		font-size: 30px;
 	}
 }
 
@@ -438,28 +440,29 @@ body
 
 	.nom_menu h2
 	{
-		font-size:0.8em;
+		font-size:30px;
 	}
 
 	#Menu
 	{
 		width: 80%;
+		margin-bottom: 200px;
 	}
 
-	#Menu header i
+	#Menu header h2
 	{
-		font-size: 5em;
+		font-size: 40px;
 	}
 
 	#Menu h3
 	{
-		font-size: 2.7em;
+		font-size:30px;
 	}
 
 	#Menu div
 	{
 		flex-direction: column;
-		font-size: 1.4em;
+		font-size:25px;
 	}
 
 	#Menu div ul
@@ -478,8 +481,17 @@ body
 
 		#Menu h3 img
 	{
-		width: 30%;
+		width: 25%;
 		margin:0 5px;
+	}
+	#Menu .logoM i
+	{
+		font-size:40px;
+	}
+
+	#Menu .logoM p
+	{
+		font-size: 40px;
 	}
 }
 
@@ -510,12 +522,17 @@ body
 
 	#Menu header
 	{
-		font-size: 1.4em;
+		font-size:50px;
 	}
 
-	#Menu footer
+	#Menu .logoM i
 	{
-		font-size: 1em;
+		font-size:40px;
+	}
+
+	#Menu .logoM p
+	{
+		font-size: 40px;
 	}
 
 	.infos div p
@@ -527,9 +544,9 @@ body
 @media screen and (max-width: 600px)
 {
 
-	#Menu header
+	#Menu header h2
 	{
-		font-size: 0.8em;
+		font-size: 40px;
 	}
 
 	#Menu span
@@ -553,13 +570,13 @@ body
 {
 	.logo
 	{
-		font-size: 0.8em;
+		font-size: 30px;
+	
 	}
-
 
 	#Menu header
 	{
-		font-size: 0.8em;
+		font-size: 30px;
 	}
 
 	#Menu h3
@@ -579,13 +596,13 @@ body
 
 	#Menu div
 	{
-		font-size: 25px;
+		font-size: 20px;
 		margin-left: 25px;
 	}
 
 	#Menu footer
 	{
-		font-size: 0.7em;
+		font-size: 30px;
 	}
 
 	.infos div p
@@ -609,9 +626,9 @@ body
 @media screen and (max-width: 375px)
 {
 	
-	#Menu header
+	#Menu header h2
 	{
-		font-size: 0.7em;
+		font-size:25px;
 		margin-bottom: 0px;
 	}
 
@@ -619,7 +636,10 @@ body
 	{
 		margin-bottom: 150px;
 	}
-	
+	#Menu h3
+	{
+		font-size: 20px;
+	}
 
 	#Menu div
 	{
@@ -633,9 +653,9 @@ body
 		font-size:30px;
 	}
 
-	#Menu footer
+	#Menu .logoM p
 	{
-		font-size: 0.6em;
+		font-size: 30px;
 	}
 
 	.infos div p
@@ -647,9 +667,29 @@ body
 
 @media screen and (max-width: 320px)
 {
-	#Menu span
+	#Menu header i
+	{
+		font-size: 50px;
+	}
+
+	#Menu h3 span
 	{	
 		font-size:25px;
+	}
+
+	#Menu h3 img
+	{
+		width: 10%;
+	}
+
+	#Menu div
+	{
+		font-size: 20px;
+	}
+
+	#Menu .logoM p
+	{
+		font-size: 30px;
 	}
 
 	.infos div p
@@ -659,12 +699,12 @@ body
 
 	.nom_menu h2
 	{
-		font-size: 0.5em;
+		font-size: 20px;
 	}
 
 	.logo h1
 	{
-		font-size:2.8em;
+		font-size:50px;
 	}
 }
 
@@ -672,19 +712,14 @@ body
 {
 	.logo h1
 	{
-		font-size:3em;
+		font-size:50px;
 	}
 
-	.nom_menu h2
+	#Menu header i
 	{
-		font-size: 0.4em;
+		font-size: 40px;
 	}
 
-	#Menu header
-	{
-		font-size: 0.6em;
-		margin-bottom: 0px;
-	}
 
 	#Menu
 	{
@@ -701,14 +736,14 @@ body
 		margin-bottom: 0px;
 	}
 
-	#Menu span
+	#Menu h3 span
 	{
 		font-size: 20px;
 	}
 
 	#Menu div
 	{
-		margin-left: 10px;
+		margin-left: 15px;
 		width: 100%;
 		font-size: 17px;
 	}
@@ -718,9 +753,9 @@ body
 		margin-right:  50px;
 	}
 
-	#Menu footer
+	#Menu .logoM p
 	{
-		font-size: 0.5em;
+		font-size: 23px;
 	}
 
 	.infos div p
