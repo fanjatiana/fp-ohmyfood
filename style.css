@@ -484,6 +484,12 @@ header h1
 	#Menus div  h2,p
 	{
 		font-size: 25px;
+
+	}
+
+	#Menu h3
+	{
+		margin-top: 0px;
 	}
 
 
