@@ -48,16 +48,16 @@ header h1
 {
 
 	justify-content: space-between;
-	margin: 50px 10px;
-	
+	margin:50px 20px 0px 20px;
+
 }
 
 #Menus .groupe_B div
 {
 
 	justify-content: space-between;
-	margin: 50px 10px;
-	
+	margin:0px 20px 0px 20px;
+
 }
 
 #Menus section div
@@ -259,9 +259,6 @@ header h1
 {
 	width: 350px;
 	margin:100px auto;
-	
-	
-	padding:5px 50px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
@@ -334,6 +331,14 @@ header h1
 	{
 		margin-right: 300px;
 	}
+
+	#Menus .groupe_B div
+	{
+
+		justify-content: space-between;
+		margin:50px 20px 0px 20px;
+
+	}
 }
 
 @media screen and (max-width: 880px)
@@ -351,21 +356,28 @@ header h1
 
 	#Menus .groupe_A div
 	{
-		margin-top: 50px;
+
+
 		margin-right: 0px;
 
 	}
 
 	#Menus .groupe_B div
 	{
-		margin-top: 50px;
+		
+	
+	
+		margin-top: 20px;
+		margin-bottom: 25px;
 		margin-right:  0px;
 	}
 
 	.next
 	{
-		margin: 100px auto;
-
+		margin-top: 20px;
+		margin-left: 310px;
+		width: 300px;
+		margin-bottom: 200px;
 	}
 }
 
@@ -376,12 +388,27 @@ header h1
 	{
 		flex-direction: column;
 	}
-
-	#Menus section
+	#Menus .groupe_A div
 	{
-		flex-direction: column;
-		margin:10px auto;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		margin-left: 0;
+		
+
+		
+
 	}
+
+	#Menus .groupe_B div
+	{
+		margin-top: 40px;
+		margin-left: 0;
+		
+		
+		
+	}
+
+	
 	
 	#Menus div
 	{
@@ -414,7 +441,9 @@ header h1
 
 	.next
 	{
-		width: 200px;
+		margin: 50px auto 200px;
+		width: 250px;
+		
 	}
 }
 
@@ -424,6 +453,16 @@ header h1
 	{
 		width: 250px;
 		height: 350px;
+	}
+
+	#Menus .groupe_B div
+	{
+		margin-left: 0px;
+	}
+
+	#Menus .groupe_A div
+	{
+		margin-left: 0px;
 	}
 
 	#Menus div  h2,p
@@ -456,8 +495,7 @@ header h1
 
 	.next
 	{
-		margin-top: 50px;
-		margin-bottom: 100px;
+		margin: 50px auto 100px;
 		width: 150px;
 	}
 
@@ -469,6 +507,16 @@ header h1
 	.infos p
 	{
 		font-size: 20px;
+	}
+
+	.Mlegales p
+	{
+		margin-left: 20px;
+	}
+
+	.contact p
+	{
+		margin-right:20px;
 	}
 }
 
@@ -505,5 +553,14 @@ header h1
 	{
 		font-size: 18px;
 	}
+	
 
+}
+
+@media screen and (max-width: 240px)
+{
+	header h1
+	{
+		font-size: 50px;
+	}
 }
