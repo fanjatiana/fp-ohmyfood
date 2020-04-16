@@ -40,11 +40,12 @@ body
 	border:1px black none;
 	width: 90%;
 	height:auto;
-	margin: 50px auto;
+	margin: 0px auto 50px;
 	display: flex;
 	flex-direction: column;
 	background-color: #FEFEFE ;
 	font-family:'Caveat', cursive;
+
 
 
 }
@@ -295,12 +296,12 @@ body
 
 	#Menu .liste p
 	{
-		margin-left: 250px;
+		margin-left: 200px;
 	}
 
 	#Menu .prix p
 	{
-		margin-right:250px;
+		margin-right:200px;
 	}
 
 	#Menu header
@@ -335,7 +336,7 @@ body
 
 	#Menu .liste p
 	{
-		margin-left: 210px;
+		margin-left: 190px;
 	}
 
 	#Menu h3 img
@@ -346,34 +347,226 @@ body
 
 	#Menu .prix p
 	{
-		margin-right: 210px;
+		margin-right: 190px;
 	}	
 }
 
 
 @media screen and (max-width: 900px)
 {
-	#Menu div 
+	#Menu
+	{
+		width: 90%;
+	}
+
+	#Menu header h2
+	{
+		font-size: 50px;
+	}
+
+	#Menu div
 	{
 		flex-direction: column;
 		text-align: center;
+
 	}
 
+
+
+	#Menu div p
+	{
+		font-size: 25px;
+	}
 
 	#Menu .liste p
 	{
-		margin-left: 0px;
-
+		margin-left: 0;
 	}
-
+	
 	#Menu .prix p
 	{
-		margin-right: 0px;
+		margin-right: 0;
 	}
+
+	#Menu h3 img
+	{
+		margin:10px 10px;
+		width: 30%;
+
+	}
+
+	#Menu h3 span
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 730px)
+{
+	#Menu
+	{
+		margin-bottom: 50px;
+	}
+	
+	#Menu header h2
+	{
+		font-size: 40px;
+	}
+
+	#Menu h3 span
+	{	
+		font-size:30px;
+	}
+
+	#Menu div
+	{
+		font-size: 20px;
+	}
+
+	.infos div p
+	{
+		font-size: 25px;
+	}
+
+	#Menu h3 img
+	{
+		margin:10px 20px;
+		width: 20%;
+
+	}
+	.entree h3 span
+	{
+
+		margin:0  50px 0;
+	}
+
+}
+
+@media screen and (max-width: 480px)
+{
+	.nom_menu h2
+	{
+		font-size: 20px;
+	}
+
+	#Menu h3 img
+	{
+		margin:10px 5px;
+
+	}
+
+	#Menu h3 span
+	{
+		font-size: 25px;
+	}
+
+	#Menu div p
+	{
+		font-size: 20px;
+	}
+	.infos div p
+	{
+		font-size: 20px;
+	}
+	
+
+	.entree h3 span
+	{
+
+		margin:0  20px 0;
+	}
+
+	.plat h3 span
+	{
+		margin:0  0px 0;
+	}
+
+}
+
+@media screen and (max-width: 360px)
+{
+	
+	#Menu h3 span
+	{	
+		font-size:20px;
+	}
+
+	#Menu div p
+	{
+		font-size: 15px;
+	}
+
+	.Mlegales p
+	{
+		margin-left: 10px;
+	}
+
+	.contact p
+	{
+		margin-right: 10px;
+	}
+
+	
+	
+}
+
+
+
+@media screen and (max-width: 280px)
+{
+	.logo h1
+	{
+		font-size:40px;
+	}
+
+	.nom_menu h2
+	{
+		font-size: 15px;
+	}
+
+	#Menu
+	{
+		margin-bottom: 10px;
+	}
+
+
+	#Menu header h2
+	{
+		font-size: 30px;
+	}
+
 
 	#Menu
 	{
 		margin-bottom: 100px;
 	}
-}
+	#Menu h3 img
+	{	
+		width: 15%;
+	}
 
+	#Menu h3
+	{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	#Menu h3 span
+	{
+		font-size: 20px;
+	}
+
+	#Menu div
+	{
+		
+		width: 100%;
+		font-size: 17px;
+	}
+
+	
+
+	.infos div p
+	{
+		font-size: 15px;
+	}
+}
