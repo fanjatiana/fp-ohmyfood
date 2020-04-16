@@ -114,18 +114,27 @@ body
 
 #Menu .liste p
 {
-	margin-left: 250px;
+	margin-left: 200px;
 }
 
 #Menu .prix p
 {
-	margin-right: 250px;
+	margin-right: 200px;
 }
 
 
 /*prelude*/
 
+.entree h3 span
+{
 
+	margin:0  70px 0;
+}
+
+.plat h3 span
+{
+	margin:0  30px 0;
+}
 
 
 
@@ -341,6 +350,17 @@ body
 
 	}
 
+	.entree h3 span
+	{
+
+		margin:0  60px 0;
+	}
+
+	#Menu header
+	{
+		margin-bottom: 0;
+	}
+
 	#Menu header h2
 	{
 		font-size:60px;	
@@ -353,6 +373,8 @@ body
 
 
 	}
+
+
 
 	#Menu footer i
 	{
@@ -372,6 +394,12 @@ body
 	{
 		font-size: 30px;
 
+	}
+
+	.entree h3 span
+	{
+
+		margin:0  50px 0;
 	}
 	#Menu div p
 {
@@ -404,12 +432,19 @@ body
 		width: 90%;
 	}
 
+	#Menu header h2
+	{
+		font-size: 50px;
+	}
+
 	#Menu div
 	{
 		flex-direction: column;
 		text-align: center;
 
 	}
+
+
 
 	#Menu div p
 	{
@@ -468,6 +503,11 @@ body
 		width: 20%;
 
 	}
+	.entree h3 span
+	{
+
+		margin:0  50px 0;
+	}
 
 }
 
@@ -490,6 +530,17 @@ body
 	#Menu footer p,i
 	{
 		font-size:30px;
+	}
+
+	.entree h3 span
+	{
+
+		margin:0  20px 0;
+	}
+
+	.plat h3 span
+	{
+		margin:0  0px 0;
 	}
 
 }
