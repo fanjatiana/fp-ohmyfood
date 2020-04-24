@@ -224,7 +224,7 @@ header h1
 .next
 {
 	width: 350px;
-	margin:100px auto;
+	margin:50px auto 200px;
 	border:1px black none;
 	background-color: #2F8D79;
 	border-radius: 10px 10px;
@@ -382,7 +382,7 @@ header h1
 	.next
 	{
 		margin: 50px auto 200px;
-		width: 250px;	
+		width: 300px;	
 	}
 }
 
@@ -403,7 +403,8 @@ header h1
 	.next
 	{
 		margin: 50px auto 100px;
-		width: 150px;
+		width: 220px;
+		
 	}
 
 	.next h2

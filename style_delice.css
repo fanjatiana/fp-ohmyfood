@@ -48,18 +48,10 @@ body
 	font-family: 'Baloo Tamma 2', cursive;
 	font-style: italic;
 	background-color: #ECF3F4 ;
+	
 }
 
 
-#Menu .prix p
-{
-	margin-right: 300px;
-}
-
-#Menu .liste p
-{
-	margin-left: 300px;
-}
 
 #Menu header
 {
@@ -86,85 +78,22 @@ body
 	width: 20%;
 	margin:0 100px;
 }
-/*pour bien commencer*/
 
-
-
-
-.tartare
+#Menu .description
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.bouchee
+#Menu .prix p
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	margin-right: 300px;
 }
 
-.veloute
+#Menu .liste p
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-
-/*pour bien continuer*/
-
-
-
-.poulet
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.langouste
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.coteboeuf
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-
-/*pour bien terminer*/
-
-
-
-
-
-.farandole
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.creme
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.tiramisu
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 60px;
+	margin-left: 300px;
 }
 
 
@@ -183,24 +112,19 @@ body
 	/*border: 1px black solid;*/
 }
 
+.infos p a
+{
+	text-decoration: none;
+	color: #EAC645;
+
+}
+
 .Mlegales p
 {
 	text-align: center;
 	margin-left: 50px;
 	font-size: 30px;
 	color:#EAC645;	
-}
-
-.Mlegales p a
-{
-	text-decoration: none;
-	color:#EAC645;	
-}
-
-.contact p a
-{
-	text-decoration: none;
-	color: #EAC645;
 }
 
  .contact p
@@ -342,7 +266,6 @@ body
 	}
 
 
-
 	#Menu div p
 	{
 		font-size: 20px;
@@ -428,10 +351,7 @@ body
 	{	
 		font-size:20px;
 
-	
 	}
-
-
 	
 }
 
@@ -468,9 +388,7 @@ body
 	{
 		width: 10%;
 		margin: 0 20px 0;
-
-	}
-		
+	}		
 }
 
 
@@ -527,6 +445,7 @@ body
 		font-size: 15px;
 	}
 }
+
 @media screen and (max-width: 305px)
 {
 	#Menu header h2

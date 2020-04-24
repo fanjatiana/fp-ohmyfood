@@ -40,11 +40,12 @@ body
 	border:1px black none;
 	width: 90%;
 	height:auto;
-	margin: 0px auto 50px;
+	margin: 0px auto 200px;
 	display: flex;
 	flex-direction: column;
 	background-color: #FEFEFE ;
 	font-family:'Caveat', cursive;
+
 
 
 
@@ -79,6 +80,16 @@ body
 	font-size: 25px;
 }
 
+#Menu .description 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+
+
+
 #Menu  .liste p
 {
 	margin-left: 350px;
@@ -105,28 +116,6 @@ body
 	width: 25%;
 }
 
-.fricassee
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.oeuf
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.foiegras
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-
 
 
 /*oeuvre de maître*/
@@ -141,30 +130,6 @@ body
 	width: 30%;
 }
 
-
-.filetboeuf
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.parmentier
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.turbot
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-
-
 /*au sommet de l'art*/
 
 .dessert h3
@@ -177,28 +142,6 @@ body
 	width: 30%;
 }
 
-
-.parisbrest
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.macaron
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.mousse
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 60px;
-}
 
 
 
@@ -224,17 +167,12 @@ body
 	color:#EAC645;	
 }
 
-.Mlegales p a
+.infos p a
 {
 	text-decoration: none;
 	color:#EAC645;	
 }
 
-.contact p a
-{
-	text-decoration: none;
-	color: #EAC645;
-}
 
  .contact p
 {

@@ -47,6 +47,14 @@ body
 	font-family: 'Baloo 2', cursive;
 }
 
+#Menu .description 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+
 #Menu .titremenu
 {
 	text-align: center;
@@ -83,12 +91,9 @@ body
 {
 	margin: 0 70px 0;
 }
+
+
 /*pour se mettre en appetit*/
-
-
-
-
-
 
 .entree
 {
@@ -96,26 +101,8 @@ body
 }
 
 
-.tartare
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.veloute
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-}
-
 .soupe
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	margin-bottom: 30px;
 }
 
@@ -127,34 +114,9 @@ body
 	color: #8B4068  ;
 }
 
-.plat h3
-{
-	text-align: center;
-}
-
-
-
-
-
-.saint-jacques
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.magret
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
 
 .pigeonneau
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	margin-bottom: 30px;
 }
 
@@ -169,13 +131,6 @@ body
 	display: flex;
 	flex-direction: column;
 }
-
-.dessert h3
-{
-	text-align: center;
-}
-
-
 
 
 .gateau
@@ -209,13 +164,8 @@ body
 	color:#EAC645;	
 }
 
-.Mlegales p a
-{
-	text-decoration: none;
-	color:#EAC645;	
-}
 
-.contact p a
+.infos p a
 {
 	text-decoration: none;
 	color: #EAC645;
@@ -371,7 +321,7 @@ body
 		font-size: 50px;
 	}
 
-	#Menu div
+	#Menu .description
 	{
 		flex-direction: column;
 		text-align: center;
@@ -463,8 +413,6 @@ body
 
 	
 	}
-
-
 	
 }
 

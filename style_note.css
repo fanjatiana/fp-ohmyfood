@@ -101,10 +101,23 @@ body
 {
 	font-size: 40px;
 }
+#Menu .description 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+.description .liste
+{
+	width: 100%;
+}
 
 #Menu div p
 {
 	font-size: 30px;
+
+
 }
 
 #Menu .liste p
@@ -118,7 +131,7 @@ body
 }
 
 
-/*prelude*/
+/*prelude + point d'orgue*/
 
 .entree h3 span
 {
@@ -133,82 +146,6 @@ body
 
 
 
-
-.raviolis
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.caviar
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.homard
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.foiegras
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-
-.entree .liste
-{	
-	
-	width: 100%;
-}
-
-
-
-
-
-/*point d'orgue*/
-
-
-
-
-.saint-jacques
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.langoustine
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.mijoteboeuf
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-
-.plat .liste
-{	
-	width: 100%;
-	
-}
-
-
-
-
 /*mouvement final*/
 
 .dessert
@@ -219,7 +156,7 @@ body
 }
 
 
-
+/*footer Menu*/
 #Menu footer
 {
 	text-align: center;
@@ -239,7 +176,7 @@ body
 
 
 
-		/*Pied de page*/
+		/*Pied de page mentions legales*/
 	.infos
 {
 	position: fixed;
@@ -250,6 +187,12 @@ body
 	justify-content: space-between;
 	background-color:#2F8D79 ;	
 }
+.infos p a
+{
+	text-decoration: none;
+	color:#EAC645;	
+}
+
 
 .Mlegales p
 {	
@@ -259,17 +202,7 @@ body
 	color:#EAC645;	
 }
 
-.Mlegales p a
-{
-	text-decoration: none;
-	color:#EAC645;	
-}
 
-.contact p a
-{
-	text-decoration: none;
-	color: #EAC645;
-}
 
  .contact p
 {
@@ -307,8 +240,6 @@ body
 	{
 		margin-right: 220px;
 	}
-
-
 }
 
 
@@ -439,11 +370,17 @@ body
 		font-size: 50px;
 	}
 
-	#Menu div
+	#Menu .description 
 	{
 		flex-direction: column;
 		text-align: center;
 
+	}
+
+	.dessert
+	{
+		flex-direction: column;
+		text-align: center;
 	}
 
 
