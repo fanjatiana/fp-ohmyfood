@@ -459,7 +459,7 @@ body
 {
 	.nom_menu h2
 	{
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	#Menu h3 img
@@ -569,11 +569,11 @@ body
 		font-size: 20px;
 	}
 
-	#Menu div
+	#Menu div p
 	{
 		
 		width: 100%;
-		font-size: 17px;
+		font-size: 20px;
 	}
 
 	
