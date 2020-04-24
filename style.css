@@ -34,38 +34,34 @@ header h1
 	background-color: #FFFFFF;
 	display: flex;
 	flex-wrap: wrap;
-	margin: auto;
+	justify-content: center;
 
 }
 
 #Menus section
 {
 	display: flex;
-	margin: 0px auto;
-	
 }
 #Menus .groupe_A div
 {
-
-	justify-content: space-between;
+	
 	margin:50px 20px 0px 20px;
 
 }
 
-#Menus .groupe_B div
+#Menus  .groupe_B  div
 {
 
-	justify-content: space-between;
-	margin:0px 20px 0px 20px;
-
+	margin:50px 20px 50px 20px;
 }
 
-#Menus section div
+.affiche div
 {
-	justify-content: space-around;
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
 }
-
-
 
 #Menus section  a
 {
@@ -111,11 +107,9 @@ header h1
 	height: 100%;
 }
 
-.Mnote i
-{
-	font-size: 4em;
-	margin-top:100px;
-	margin-left: 170px;
+.Mnote img
+{	text-align: center;
+	width: 3em;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );	
@@ -129,7 +123,6 @@ header h1
 
 .Mnote h2,p
 {
-	text-align: center;
 	color: #5A3017 ;
 }
 
@@ -150,10 +143,8 @@ header h1
 	height:500px;
 	font-family: 'Baloo 2', cursive;
 	background-color: #FCF5FE ;
-	
-
-	
 }
+
 .Mchic div
 {
 	height: 100%;
@@ -162,8 +153,6 @@ header h1
 .Mchic h2
 {
 	font-size: 30px;
-	text-align: center;
-	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
@@ -199,9 +188,7 @@ header h1
 
 .Mdelice h2
 {
-	text-align: center;
 	font-size: 30px;
-	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#090675 , #73BFFF );
@@ -236,8 +223,6 @@ header h1
 
 .Mpalette h2
 {
-	text-align: center;
-	padding-top: 180px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-image: -webkit-linear-gradient(left,#0D9906, #E1FFCD);
@@ -335,7 +320,6 @@ header h1
 	#Menus .groupe_B div
 	{
 
-		justify-content: space-between;
 		margin:50px 20px 0px 20px;
 
 	}
@@ -416,28 +400,18 @@ header h1
 		height: 500px;
 	}
 
-	#Menus div h2
-	{
-		padding-top: 50px;
-	}
-
-
+	
 	#Menus div  h2,p
 	{
 		font-size: 40px;
 	}
-	#Menus .Mnote i
+	#Menus .Mnote img
 	{
-		margin-top: 50px;
-		margin-bottom: 0;
-		margin-left: 180px;
+	
 		font-size: 40px;
 	}
 
-	#Menus .Mnote h2
-	{
-		margin-top: 0px;
-	}
+	
 
 	.next
 	{
@@ -480,7 +454,7 @@ header h1
 		margin-top: 0px;
 	}
 
-	#Menus .Mnote i
+	#Menus .Mnote img
 	{
 		margin-top: 50px;
 		margin-bottom: 0;
@@ -542,7 +516,7 @@ header h1
 
 
 
-	#Menus .Mnote i
+	#Menus .Mnote img
 	{
 		margin-top: 50px;
 		margin-left: 80px;
