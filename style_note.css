@@ -62,10 +62,9 @@ body
 	margin-bottom:  400px;
 	display: flex;
 	flex-direction: column;
-	background-color:#F1DEDC   ;
+	background-color:/*#F1DEDC*/#FFE1E1 ;
 	font-family: 'devonshire', Arial, serif;
 	color:#5A3017;
-
 }
 
 #Menu header
@@ -77,22 +76,18 @@ body
 
 #Menu header h2
 {
-	font-size:80px;	
+	font-size:70px;	
 }
 
-#Menu header i
+#Menu header img
 {
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
-	font-size: 100px;
 	margin-bottom: 0px;
 }
 
 #Menu h3
 {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 60px;
 				
 }
 
@@ -104,12 +99,12 @@ body
 
 #Menu h3 span
 {
-	font-size: 60px;
+	font-size: 40px;
 }
 
 #Menu div p
 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 #Menu .liste p
@@ -241,18 +236,15 @@ body
 	margin:30px 0px;
 }
 
-#Menu footer i
+#Menu footer  img
 {
-	font-size:80px;
-	margin-right: 20px;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(left,#FB26DB , #E1650A );
+	width: 5%;
+
 }
 
 #Menu footer p
 {
-	font-size: 80px;
+	font-size: 50px;
 }
 
 
@@ -300,6 +292,19 @@ body
 
 /*media queries*/
 
+@media screen and (max-width: 2560px)
+{
+		#Menu .liste p
+	{
+		margin-left: 200px;
+	}
+
+	#Menu .prix p
+	{
+		margin-right: 200px;
+	}
+}
+
 @media screen and (max-width: 2000px)
 {
 	
@@ -341,9 +346,9 @@ body
 	}
 
 	#Menu div p
-{
-	font-size: 30px;
-}
+	{
+		font-size: 30px;
+	}
 	#Menu h3 span
 	{
 		font-size: 40px;
@@ -366,17 +371,13 @@ body
 		font-size:60px;	
 	}
 
-	#Menu header i
+	#Menu footer img
 	{
-
-		font-size: 80px;
-
-
+		width: 10%;
 	}
 
 
-
-	#Menu footer i
+	#Menu footer img
 	{
 		font-size:60px;
 	
@@ -406,7 +407,7 @@ body
 	font-size:25px;
 }
 
-#Menu h3 img
+	#Menu h3 img
 	{
 		width: 20%;
 		margin:10px 50px;
@@ -417,7 +418,7 @@ body
 		margin-right: 100px;
 	}
 
-	#Menu footer p,i
+	#Menu footer p,img
 	{
 		font-size:50px;
 	}
@@ -485,11 +486,22 @@ body
 	#Menu h3 span
 	{	
 		font-size:30px;
+		margin: 0 60px 0;
+	}
+
+	#Menu .dessert h3 span
+	{
+		margin: 0 10px 0;
 	}
 
 	#Menu div
 	{
 		font-size: 20px;
+	}
+
+	#Menu header img
+	{
+		width: 15%;
 	}
 
 	.infos div p
@@ -511,6 +523,16 @@ body
 
 }
 
+@media screen and (max-width: 590px)
+{
+	#Menu h3 span
+	{	
+		font-size:30px;
+		margin: 0 40px 0;
+	}
+
+}
+
 @media screen and (max-width: 480px)
 {
 	#Menu h3 img
@@ -527,7 +549,7 @@ body
 	{
 		font-size: 20px;
 	}
-	#Menu footer p,i
+	#Menu footer p
 	{
 		font-size:30px;
 	}
@@ -545,16 +567,17 @@ body
 
 }
 
-@media screen and (max-width: 330px)
+@media screen and (max-width :400px)
 {
-	#Menu header i
+	#Menu header img
 	{
-		font-size: 50px;
+		width: 20%;
 	}
 
 	#Menu h3 span
 	{	
 		font-size:25px;
+		margin: 0 20px 0;
 	}
 
 	#Menu div p
@@ -578,14 +601,14 @@ body
 
 
 
-@media screen and (max-width: 255px)
+@media screen and (max-width: 290px)
 {
 	.logo h1
 	{
 		font-size:40px;
 	}
 
-	#Menu header i
+	#Menu header img
 	{
 		font-size: 40px;
 	}
@@ -614,6 +637,7 @@ body
 	#Menu h3 span
 	{
 		font-size: 20px;
+		margin: 0 5px 0;
 	}
 
 	#Menu div
@@ -629,7 +653,7 @@ body
 		font-size: 23px;
 	}
 
-	#Menu .logoM i
+	#Menu .logoM img
 	{
 		font-size: 23px;
 	}
