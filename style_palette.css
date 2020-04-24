@@ -246,6 +246,19 @@ body
 
 /*media queries*/
 
+@media screen and (max-width: 2560px)
+{
+	#Menu  .liste p
+{
+	margin-left: 500px;
+}
+
+#Menu .prix p
+{
+	margin-right: 500px;
+}
+}
+
 @media screen and (max-width: 2000px)
 {
 	
