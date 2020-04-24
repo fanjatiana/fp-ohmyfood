@@ -93,7 +93,7 @@ body
 
 #Menu h3 img
 {
-	width: 30%;
+	width: 25%;
 	margin:10px 50px;
 }
 
@@ -109,12 +109,12 @@ body
 
 #Menu .liste p
 {
-	margin-left: 160px;
+	margin-left: 400px;
 }
 
 #Menu .prix p
 {
-	margin-right: 160px;
+	margin-right:400px;
 }
 
 
@@ -220,12 +220,6 @@ body
 
 
 
-
-
-
-
-
-
 #Menu footer
 {
 	text-align: center;
@@ -290,14 +284,14 @@ body
 
 @media screen and (max-width: 2560px)
 {
-		#Menu .liste p
+	#Menu .liste p
 	{
-		margin-left: 200px;
+		margin-left: 300px;
 	}
 
 	#Menu .prix p
 	{
-		margin-right: 200px;
+		margin-right: 300px;
 	}
 }
 
@@ -306,12 +300,12 @@ body
 	
 	#Menu .liste p
 	{
-		margin-left: 100px;
+		margin-left: 200px;
 	}
 
 	#Menu .prix p
 	{
-		margin-right: 120px;
+		margin-right: 220px;
 	}
 
 
@@ -381,6 +375,17 @@ body
 	#Menu footer p
 	{
 		font-size: 60px;
+	}
+
+
+	#Menu .liste p
+	{
+		margin-left: 100px;
+	}
+
+	#Menu .prix p
+	{
+		margin-right: 120px;
 	}
 
 
