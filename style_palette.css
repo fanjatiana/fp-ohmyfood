@@ -397,7 +397,7 @@ body
 {
 	.nom_menu h2
 	{
-		font-size: 30px;
+		font-size: 20px;
 	}
 
 	#Menu h3 img
@@ -432,6 +432,16 @@ body
 		margin:0  0px 0;
 	}
 
+	.Mlegales p
+	{
+		margin-left: 10px;
+	}
+
+	.contact p
+	{
+		margin-right: 10px;
+	}
+
 }
 
 @media screen and (max-width: 360px)
@@ -449,12 +459,12 @@ body
 
 	.Mlegales p
 	{
-		margin-left: 10px;
+		margin-left: 5px;
 	}
 
 	.contact p
 	{
-		margin-right: 10px;
+		margin-right: 5px;
 	}
 
 	
