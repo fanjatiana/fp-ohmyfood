@@ -258,7 +258,7 @@ body
 		font-size: 50px;
 	}
 
-	#Menu div
+	#Menu .description
 	{
 		flex-direction: column;
 		text-align: center;
