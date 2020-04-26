@@ -38,6 +38,7 @@ header h1
 #Menus section
 {
 	display: flex;
+	flex-direction: column;
 }
 
 #Menus .groupe_A div
@@ -47,7 +48,7 @@ header h1
 
 #Menus  .groupe_B  div
 {
-	margin:50px 20px 50px 20px;
+	margin:50px 20px 0px 20px;
 }
 
 #Menus section  a

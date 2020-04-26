@@ -357,7 +357,10 @@ body
 
 @media screen and (max-width: 506px)
 {
-	
+	.nom_menu h2
+	{
+		font-size: 20px;
+	}
 
 	#Menu .titremenu h2
 	{
@@ -399,10 +402,7 @@ body
 		font-size:40px;
 	}
 
-	.nom_menu h2
-	{
-		font-size: 20px;
-	}
+	
 
 	#Menu header h2
 	{
