@@ -268,7 +268,7 @@ header h1
 	display: inline-flex;
 	align-items: center;
 	font-size: 25px;
-	margin-left: 10px;
+	padding-left: 10px;
 }
 
 .next div h2:after
@@ -381,10 +381,6 @@ header h1
 
 /*Media Queries*/
 
-
-
-
-
 @media screen and (max-width: 880px)
 {
 	#Menus
@@ -406,10 +402,8 @@ header h1
 		flex-direction: column;
 	}
 	#Menus section
-	{
-		
-		flex-direction: column;
-		
+	{	
+		flex-direction: column;	
 	}
 
 	#Menus .affiche div
@@ -418,7 +412,6 @@ header h1
 		margin-left: 0;
 	}
 
-}	
 	#Menus div
 	{
 		width: 300px;
@@ -441,7 +434,6 @@ header h1
 	
 		font-size: 18px;
 	}
-
 }
 
 @media screen and (max-width:600px)
@@ -503,8 +495,6 @@ header h1
 
 	}
 
-
-
 	#Menus .Mnote img
 	{
 		font-size: 15px;
@@ -515,7 +505,31 @@ header h1
 		font-size: 15px;
 	}
 	
+	.next div h2
+	{
+		font-size: 15px;
+	}
 
+	.next
+	{
+		width: 130px;
+	}
+
+	@keyframes ellipsis 
+	{
+		to
+		{
+			width:20px;
+		}
+	}
+
+	@-webkit-keyframes ellipsis
+	{
+		to
+		{
+			width: 20px;
+		}
+	}	
 }
 
 @media screen and (max-width: 280px)
