@@ -158,12 +158,54 @@ body
 	background-color:#2F8D79 ;
 }
 
+.infos div:hover
+{
+	-webkit-animation-name:vibrations;
+	-webkit-animation-duration: 0.15s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@keyframes vibrations
+{
+	0%
+	{
+		-webkit-transform: translate(2px,1px) rotate(0deg);
+	}
+
+	20%
+	{
+		-webkit-transform: translate(-1px,0px) rotate(1deg);
+	}
+
+	40%
+	{
+		-webkit-transform: translate(1px,1px) rotate1deg);
+	}
+
+	60%
+	{
+		-webkit-transform: translate(-1px,1px) rotate(0deg);
+	}
+
+	80%
+	{
+		-webkit-transform: translate(-1px,-1px) rotate(1deg);
+	}
+
+	100%
+	{
+		-webkit-transform: translate(1px,-2px) rotate(-1deg);
+	}
+}
+
 .Mlegales p
 {
 	
 	text-align: center;
 	margin-left: 50px;
-	font-size: 30px;
+	font-size: 20px;
 	color:#EAC645;	
 }
 
@@ -177,7 +219,7 @@ body
  .contact p
 {
 	margin-right: 50px;
-	font-size: 30px;
+	font-size: 20px;
 	color: #EAC645;
 }
 
