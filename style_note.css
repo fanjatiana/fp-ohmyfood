@@ -87,8 +87,7 @@ body
 #Menu h3
 {
 	text-align: center;
-	margin-top: 60px;
-				
+	margin-top: 60px;				
 }
 
 #Menu h3 img
@@ -107,7 +106,8 @@ body
   position: relative;
 }
 
-#Menu h3 span:after{
+#Menu h3 span:after
+{
   content: '';
   position: absolute;
   width: 0; height: 2px;
@@ -117,11 +117,13 @@ body
   -webkit-transition: width 1s ease;
 }
  
-#Menu h3 span:hover:after{
+#Menu h3 span:hover:after
+{
   width: 100%;
   left: 0px;
   background:#5A3017;
 }
+
 #Menu .description 
 {
 	display: flex;
@@ -137,8 +139,6 @@ body
 #Menu div p
 {
 	font-size: 30px;
-
-
 }
 
 #Menu .liste p
@@ -178,6 +178,7 @@ body
 
 
 /*footer Menu*/
+
 #Menu footer
 {
 	text-align: center;
@@ -187,7 +188,6 @@ body
 #Menu footer  img
 {
 	width: 5%;
-
 }
 
 #Menu footer p
@@ -232,7 +232,7 @@ body
 
 	40%
 	{
-		-webkit-transform: translate(1px,1px) rotate1deg);
+		-webkit-transform: translate(1px,1px) rotate(1deg);
 	}
 
 	60%
@@ -250,12 +250,12 @@ body
 		-webkit-transform: translate(1px,-2px) rotate(-1deg);
 	}
 }
+
 .infos p a
 {
 	text-decoration: none;
 	color:#EAC645;	
 }
-
 
 .Mlegales p
 {	
@@ -264,8 +264,6 @@ body
 	font-size: 20px;
 	color:#EAC645;	
 }
-
-
 
  .contact p
 {
@@ -293,7 +291,6 @@ body
 
 @media screen and (max-width: 2000px)
 {
-	
 	#Menu .liste p
 	{
 		margin-left: 200px;
@@ -308,7 +305,6 @@ body
 
 @media screen and (max-width: 1840px)
 {
-
 	#Menu h3 img
 	{
 		width: 25%;
@@ -317,9 +313,7 @@ body
 	#Menu h3 span
 	{
 		font-size: 50px;
-
 	}
-
 }
 
 @media screen and (max-width: 1540px)
@@ -336,12 +330,10 @@ body
 	#Menu h3 span
 	{
 		font-size: 40px;
-
 	}
 
 	.entree h3 span
 	{
-
 		margin:0  60px 0;
 	}
 
@@ -360,17 +352,15 @@ body
 		width: 10%;
 	}
 
-
 	#Menu footer img
 	{
 		font-size:60px;
-	
 	}
+
 	#Menu footer p
 	{
 		font-size: 60px;
 	}
-
 
 	#Menu .liste p
 	{
@@ -381,26 +371,24 @@ body
 	{
 		margin-right: 120px;
 	}
-
-
 }
+
 @media screen and (max-width: 1190px)
 {
 	#Menu h3 span
 	{
 		font-size: 30px;
-
 	}
 
 	.entree h3 span
 	{
-
 		margin:0  50px 0;
 	}
+
 	#Menu div p
-{
-	font-size:25px;
-}
+	{
+		font-size:25px;
+	}
 
 	#Menu h3 img
 	{
@@ -416,8 +404,7 @@ body
 	#Menu footer p,img
 	{
 		font-size:50px;
-	}
-	
+	}	
 }
 
 
@@ -437,7 +424,6 @@ body
 	{
 		flex-direction: column;
 		text-align: center;
-
 	}
 
 	.dessert
@@ -445,8 +431,6 @@ body
 		flex-direction: column;
 		text-align: center;
 	}
-
-
 
 	#Menu div p
 	{
@@ -467,7 +451,6 @@ body
 	{
 		margin:10px 10px;
 		width: 30%;
-
 	}
 
 	#Menu h3 span
@@ -478,7 +461,6 @@ body
 
 @media screen and (max-width: 730px)
 {
-
 	#Menu header h2
 	{
 		font-size: 40px;
@@ -514,14 +496,12 @@ body
 	{
 		margin:10px 20px;
 		width: 20%;
-
 	}
+
 	.entree h3 span
 	{
-
 		margin:0  50px 0;
 	}
-
 }
 
 @media screen and (max-width: 590px)
@@ -531,7 +511,6 @@ body
 		font-size:30px;
 		margin: 0 40px 0;
 	}
-
 }
 
 @media screen and (max-width: 480px)
@@ -539,13 +518,13 @@ body
 	#Menu h3 img
 	{
 		margin:10px 5px;
-
 	}
 
 	#Menu div p
 	{
 		font-size: 20px;
 	}
+
 	.infos div p
 	{
 		font-size: 20px;
@@ -557,7 +536,6 @@ body
 
 	.entree h3 span
 	{
-
 		margin:0  20px 0;
 	}
 
@@ -565,7 +543,6 @@ body
 	{
 		margin:0  0px 0;
 	}
-
 }
 
 @media screen and (max-width :400px)
@@ -594,12 +571,8 @@ body
 	.contact p
 	{
 		margin-right: 10px;
-	}
-
-	
-	
+	}	
 }
-
 
 
 @media screen and (max-width: 290px)
@@ -619,11 +592,11 @@ body
 		font-size: 30px;
 	}
 
-
 	#Menu
 	{
 		margin-bottom: 100px;
 	}
+
 	#Menu h3 img
 	{	
 		width: 15%;
@@ -643,7 +616,6 @@ body
 
 	#Menu div
 	{
-		
 		width: 100%;
 		font-size: 17px;
 	}

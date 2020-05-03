@@ -12,7 +12,6 @@ body
 	background-color:#2F8D79;
 }
 
-
 .logo h1
 {
 	font-weight: bold;
@@ -69,6 +68,7 @@ body
 	background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA   );
 	font-family: 'Amita', cursive;
 }
+
 #Menu .liste p
 {
 	margin-left:350px;
@@ -97,7 +97,8 @@ body
   position: relative;
 }
 
-#Menu h3 span:after{
+#Menu h3 span:after
+{
   content: '';
   position: absolute;
   width: 0; height: 2px;
@@ -107,19 +108,22 @@ body
   -webkit-transition: width 1s ease;
 }
  
-#Menu .entree h3 span:hover:after{
+#Menu .entree h3 span:hover:after
+{
   width: 100%;
   left: 0px;
   background:#EA7F0D;
 }
 
-#Menu .plat h3 span:hover:after{
+#Menu .plat h3 span:hover:after
+{
   width: 100%;
   left: 0px;
   background:#8B4068;
 }
 
-#Menu .dessert h3 span:hover:after{
+#Menu .dessert h3 span:hover:after
+{
   width: 100%;
   left: 0px;
   background:#562ACA;
@@ -133,13 +137,10 @@ body
 	color: #EA7F0D;
 }
 
-
 .soupe
 {
 	margin-bottom: 30px;
 }
-
-
 
 /*plaisir des papilles*/
 .plat
@@ -147,12 +148,10 @@ body
 	color: #8B4068  ;
 }
 
-
 .pigeonneau
 {
 	margin-bottom: 30px;
 }
-
 
 
 /*gourmandises sucrees*/
@@ -184,7 +183,6 @@ body
 	display: flex;
 	justify-content: space-between;
 	background-color:#2F8D79 ;
-
 }
 
 .infos div:hover
@@ -210,7 +208,7 @@ body
 
 	40%
 	{
-		-webkit-transform: translate(1px,1px) rotate1deg);
+		-webkit-transform: translate(1px,1px) rotate(1deg);
 	}
 
 	60%
@@ -280,8 +278,6 @@ body
 	{
 		margin-right: 400px;
 	}
-
-
 }
 
 @media screen and (max-width: 1840px)
@@ -291,18 +287,17 @@ body
 	{
 		width: 25%;
 	}
+
 	#Menu h3 span
 	{
 		font-size: 30px;
-
 	}
 	.entree h3 span
 	{
-
 		margin:0;
 	}
 
-		#Menu .liste p
+	#Menu .liste p
 	{
 		margin-left: 300px;
 	}
@@ -311,7 +306,6 @@ body
 	{
 		margin-right: 300px;
 	}
-
 }
 
 @media screen and (max-width: 1540px)
@@ -325,12 +319,12 @@ body
 	{
 		font-size: 25px;
 	}
+
 	#Menu h3 span
 	{
 		font-size: 30px;
 
 	}
-
 
 	#Menu header
 	{
@@ -351,24 +345,21 @@ body
 	{
 		margin-right:200px;
 	}
-
-
 }
+
 @media screen and (max-width: 1190px)
 {
 	#Menu h3 span
 	{
 		font-size: 30px;
-
 	}
 
-	
 	#Menu div p
-{
-	font-size:25px;
-}
+	{
+		font-size:25px;
+	}
 
-#Menu h3 img
+	#Menu h3 img
 	{
 		width: 20%;
 	}
@@ -381,15 +372,12 @@ body
 	#Menu .liste p
 	{
 		margin-left:  180px;
-	}
-	
+	}	
 }
 
 
 @media screen and (max-width: 960px)
 {
-	
-
 	#Menu header h2
 	{
 		font-size: 50px;
@@ -399,10 +387,7 @@ body
 	{
 		flex-direction: column;
 		text-align: center;
-
 	}
-
-
 
 	#Menu div p
 	{
@@ -422,7 +407,6 @@ body
 	#Menu h3 img
 	{
 		width: 25%;
-
 	}
 
 	#Menu h3 span
@@ -434,7 +418,6 @@ body
 
 @media screen and (max-width: 760px)
 {
-
 	#Menu header h2
 	{
 		font-size: 40px;
@@ -458,14 +441,11 @@ body
 	#Menu h3 img
 	{
 		width: 20%;
-
-	}
-	
+	}	
 }
 
 @media screen and (max-width: 640px)
 {
-	
 	#Menu div p
 	{
 		font-size: 15px;
@@ -478,22 +458,16 @@ body
 	#Menu h3 img
 	{
 		width: 15%;
-
 	}
 	
 	#Menu h3 span
 	{	
 		font-size:20px;
-
-	
-	}
-	
+	}	
 }
 
 @media screen and (max-width: 480px)
 {
-	
-
 	#Menu .titremenu h2
 	{
 		font-size: 30px;
@@ -501,9 +475,7 @@ body
 	#Menu h3 span
 	{	
 		font-size:20px;
-
 	}
-
 
 	#Menu div p
 	{
@@ -519,14 +491,11 @@ body
 	{
 		margin-right: 10px;
 	}
+
 	#Menu h3 img
 	{
 		width: 10%;
-
-
-	}
-	
-	
+	}		
 }
 
 
@@ -538,18 +507,16 @@ body
 		font-size:40px;
 	}
 
-	
-
 	#Menu header h2
 	{
 		font-size: 20px;
 	}
 
-
 	#Menu
 	{
 		margin-bottom: 100px;
 	}
+
 	#Menu h3 img
 	{	
 		width: 15%;
@@ -568,18 +535,16 @@ body
 
 	#Menu div
 	{
-		
 		width: 100%;
 		font-size: 17px;
 	}
-
-	
 
 	.infos div p
 	{
 		font-size: 15px;
 	}
 }
+
 @media screen and (max-width: 300px)
 {
 	#Menu h3 img
