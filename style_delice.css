@@ -73,6 +73,33 @@ body
 	font-size: 25px;
 }
 
+
+
+
+#Menu h3 span:hover
+{
+  position: relative;
+}
+
+#Menu h3 span:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  margin-top: 1px;
+  transition: width 1s ease;
+  -webkit-transition: width 1s ease;
+}
+ 
+#Menu h3 span:hover:after{
+  width: 100%;
+  left: 0px;
+  background:black;
+}
+
+
+
+
 #Menu h3 img
 {
 	width: 20%;

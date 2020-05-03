@@ -101,6 +101,27 @@ body
 {
 	font-size: 40px;
 }
+
+#Menu h3 span:hover
+{
+  position: relative;
+}
+
+#Menu h3 span:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  margin-top: 1px;
+  transition: width 1s ease;
+  -webkit-transition: width 1s ease;
+}
+ 
+#Menu h3 span:hover:after{
+  width: 100%;
+  left: 0px;
+  background:#5A3017;
+}
 #Menu .description 
 {
 	display: flex;
