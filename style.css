@@ -378,13 +378,13 @@ header h1
 
 .infos div:hover
 {
-	-webkit-animation-name:vibrations;
-	-webkit-animation-duration: 0.4s;
+	-webkit-animation-name:secousses;
+	-webkit-animation-duration: 0.2s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;	 
 }
 
-@keyframes vibrations
+@keyframes secousses
 {
 	0%
 	{
