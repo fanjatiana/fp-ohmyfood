@@ -26,24 +26,19 @@ body
 
 			/*en-tête*/
 
-.logo
+header
 {
-	background-color:#2F8D79;
+	width: 100%;
+	margin:0; 
 }
 
-.logo h1
+#logo img
 {
-	font-weight: bold;
-	text-align: center;
-	font-family:Times New Roman;
-	font-size: 60px;
+	width: 100%;
+	position: relative;
+	
 }
 
-.logo h1 a
-{
-	color: #EAC645;
-	text-decoration: none;
-}
 
  .nom_menu
 {
