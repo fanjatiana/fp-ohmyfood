@@ -7,24 +7,16 @@ body
 }
 
 			/*en-tête*/
-
-.logo
+#logo
 {
-	background-color:#2F8D79;
+	width: 100%;
+	margin: 0;
 }
 
-.logo h1
+#logo img
 {
-	font-weight: bold;
-	text-align: center;
-	font-family:Times New Roman;
-	font-size: 60px;
-}
-
-.logo h1 a
-{
-	text-decoration: none;
-	color: #EAC645;
+	margin:0;
+	width: 100%;
 }
 
  .nom_menu
@@ -35,7 +27,7 @@ body
 	margin-bottom: 0px;	
 }
 
-#Menu
+.Menu
 {
 	border:1px black none;
 	width: 90%;
@@ -47,13 +39,13 @@ body
 	font-family:'Caveat', cursive;
 }
 
-#Menu header
+.Menu header
 {
 	text-align: center;
 	margin-top: 0px;
 }
 
-#Menu header h2
+.Menu header h2
 {
 	font-size:50px;
 	-webkit-background-clip: text;
@@ -61,7 +53,7 @@ body
 	background-image: -webkit-linear-gradient(left,#357D3F  , #23FA42  );
 }
 
-#Menu h3
+.Menu h3
 {
 	text-align: center;
 	font-size: 30px;
@@ -72,12 +64,12 @@ body
 	margin: 0px 150px 0px;
 }
 
-#Menu h3 span:hover
+.Menu h3 span:hover
 {
   position: relative;
 }
 
-#Menu h3 span:after
+.Menu h3 span:after
 {
   content: '';
   position: absolute;
@@ -89,36 +81,36 @@ body
   -webkit-transition: width 1s ease;
 }
  
-#Menu h3 span:hover:after
+.Menu h3 span:hover:after
 {
   width: 100%;
   left: 0px;
   background:black;
 }
 
-#Menu div
+.Menu div
 {
 	font-size: 25px;
 }
 
-#Menu .description 
+.Menu .description 
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;	
 }
 
-#Menu  .liste p
+.Menu  .liste p
 {
 	margin-left: 350px;
 }
 
-#Menu .prix p
+.Menu .prix p
 {
 	margin-right: 350px;
 }
 
-#Menu section
+.Menu section
 {
 	margin-bottom: 50px;
 }
@@ -270,12 +262,12 @@ body
 
 @media screen and (max-width: 2560px)
 {
-	#Menu  .liste p
+	.Menu  .liste p
 	{
 		margin-left: 500px;
 	}
 
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right: 500px;
 	}
@@ -283,12 +275,12 @@ body
 
 @media screen and (max-width: 2000px)
 {
-	#Menu .liste p
+	.Menu .liste p
 	{
 		margin-left: 400px;
 	}
 
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right:400px;
 	}
@@ -296,12 +288,12 @@ body
 
 @media screen and (max-width: 1900px)
 {
-	#Menu .liste p
+	.Menu .liste p
 	{
 		margin-left: 300px;
 	}
 
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right:300px;
 	}
@@ -310,37 +302,37 @@ body
 
 @media screen and (max-width: 1540px)
 {
-	#Menu
+	.Menu
 	{
 		margin-bottom: 200px;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		font-size: 30px;
 	}
 
-	#Menu h3 span
+	.Menu h3 span
 	{
 		font-size: 40px;
 	}
 
-	#Menu .liste p
+	.Menu .liste p
 	{
 		margin-left: 200px;
 	}
 
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right:200px;
 	}
 
-	#Menu header
+	.Menu header
 	{
 		margin-bottom: 0;
 	}
 
-	#Menu header h2
+	.Menu header h2
 	{
 		font-size:60px;	
 	}
@@ -348,7 +340,7 @@ body
 
 @media screen and (max-width: 1190px)
 {
-	#Menu h3 span
+	.Menu h3 span
 	{
 		font-size: 30px;
 	}
@@ -358,23 +350,23 @@ body
 		margin:0 50px 0;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		font-size:25px;
 	}
 
-	#Menu .liste p
+	.Menu .liste p
 	{
 		margin-left: 190px;
 	}
 
-	#Menu h3 img
+	.Menu h3 img
 	{
 		width: 20%;
 		margin:10px 50px;
 	}
 
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right: 190px;
 	}	
@@ -383,44 +375,44 @@ body
 
 @media screen and (max-width: 900px)
 {
-	#Menu
+	.Menu
 	{
 		width: 90%;
 	}
 
-	#Menu header h2
+	.Menu header h2
 	{
 		font-size: 50px;
 	}
 
-	#Menu .description
+	.Menu .description
 	{
 		flex-direction: column;
 		text-align: center;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		font-size: 25px;
 	}
 
-	#Menu .liste p
+	.Menu .liste p
 	{
 		margin-left: 0;
 	}
 	
-	#Menu .prix p
+	.Menu .prix p
 	{
 		margin-right: 0;
 	}
 
-	#Menu h3 img
+	.Menu h3 img
 	{
 		margin:10px 10px;
 		width: 30%;
 	}
 
-	#Menu h3 span
+	.Menu h3 span
 	{
 		font-size: 35px;
 	}
@@ -428,22 +420,22 @@ body
 
 @media screen and (max-width: 730px)
 {
-	#Menu
+	.Menu
 	{
 		margin-bottom: 50px;
 	}
 	
-	#Menu header h2
+	.Menu header h2
 	{
 		font-size: 40px;
 	}
 
-	#Menu h3 span
+	.Menu h3 span
 	{	
 		font-size:30px;
 	}
 
-	#Menu div
+	.Menu div
 	{
 		font-size: 20px;
 	}
@@ -453,7 +445,7 @@ body
 		font-size: 25px;
 	}
 
-	#Menu h3 img
+	.Menu h3 img
 	{
 		margin:10px 20px;
 		width: 20%;
@@ -472,17 +464,17 @@ body
 		font-size: 20px;
 	}
 
-	#Menu h3 img
+	.Menu h3 img
 	{
 		margin:10px 5px;
 	}
 
-	#Menu h3 span
+	.Menu h3 span
 	{
 		font-size: 25px;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		font-size: 20px;
 	}
@@ -515,12 +507,12 @@ body
 
 @media screen and (max-width: 360px)
 {
-	#Menu h3 span
+	.Menu h3 span
 	{	
 		font-size:20px;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		font-size: 15px;
 	}
@@ -540,48 +532,44 @@ body
 
 @media screen and (max-width: 280px)
 {
-	.logo h1
-	{
-		font-size:40px;
-	}
 
 	.nom_menu h2
 	{
 		font-size: 15px;
 	}
 
-	#Menu
+	.Menu
 	{
 		margin-bottom: 10px;
 	}
 
-	#Menu header h2
+	.Menu header h2
 	{
 		font-size: 30px;
 	}
 
-	#Menu
+	.Menu
 	{
 		margin-bottom: 100px;
 	}
 
-	#Menu h3 img
+	.Menu h3 img
 	{	
 		width: 15%;
 	}
 
-	#Menu h3
+	.Menu h3
 	{
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 
-	#Menu h3 span
+	.Menu h3 span
 	{
 		font-size: 20px;
 	}
 
-	#Menu div p
+	.Menu div p
 	{
 		width: 100%;
 		font-size: 20px;

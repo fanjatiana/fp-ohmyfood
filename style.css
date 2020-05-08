@@ -242,7 +242,7 @@ header figure
 
 .next
 {
-	width: 200px;
+	width: 250px;
 	margin:50px auto 200px;
 	border:1px black none;
 	background-color: #2F8D79;
@@ -252,10 +252,10 @@ header figure
 .next div h2
 {
 	color: #EAC645;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	font-size: 25px;
-	padding-left: 10px;
+	padding-left: 20px;
 	
 }
 
@@ -555,7 +555,7 @@ header figure
 
 	.next
 	{
-		width: 170px;
+		width: 200px;
 	}
 
 	.next div h2
