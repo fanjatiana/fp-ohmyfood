@@ -125,7 +125,7 @@ footer .contact p a
 	text-decoration: none;
 	color: #F1BE0D;
 	font-size: 25px;
-	margin-left: 50px;
+	
 }
 
 
@@ -182,7 +182,12 @@ footer .contact p a
 
 @media screen and (max-width: 760px)
 {
-	footer .contact p
+	header #logo img
+	{
+		width: 30%;
+	}
+
+	footer .contact p a
 	{
 		font-size: 25px;
 	}
@@ -195,18 +200,28 @@ footer .contact p a
 
 @media screen and (max-width: 640px)
 {
-	footer .contact p
+	header #logo img
 	{
-		font-size: 20px;
+		width: 40%;
+	}
+
+	footer .contact p a
+	{
+		font-size: 25px;
 	}
 
 }
 
 @media screen and (max-width: 415px)
 {
-	footer .contact p
+	header #logo img
 	{
-		font-size: 10px;
+		width:50%;
+	}
+
+	footer .contact p a
+	{
+		font-size: 20px;
 	}
 
 }

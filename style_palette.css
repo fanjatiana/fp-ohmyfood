@@ -379,6 +379,11 @@ header #logo
 
 @media screen and (max-width: 900px)
 {
+	header #logo img
+	{
+		width: 30%;
+	}
+
 	.Menu
 	{
 		width: 90%;
@@ -463,6 +468,11 @@ header #logo
 
 @media screen and (max-width: 480px)
 {
+	header #logo img
+	{
+		width: 40%;
+	}
+
 	.nom_menu h2
 	{
 		font-size: 20px;
@@ -536,6 +546,11 @@ header #logo
 
 @media screen and (max-width: 280px)
 {
+	header #logo img
+	{
+		width: 50%;
+	}
+
 
 	.nom_menu h2
 	{
