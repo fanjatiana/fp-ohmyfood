@@ -26,17 +26,21 @@ body
 
 			/*en-tête*/
 
-#logo
+header #logo
 {
 	width: 100%;
-	margin: 0;
-}
-#logo img
-{
 	margin:0;
-	width: 100%;
+	text-align: center;
+	background-color:#5CA18C; 
+
 }
 
+#logo img
+{
+	width: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
 
 
 
@@ -202,7 +206,7 @@ body
 	height:auto;
 	display: flex;
 	justify-content: space-between;
-	background-color:#4A8069 ;	
+	background-color:#5CA18C ;	
 }
 
 

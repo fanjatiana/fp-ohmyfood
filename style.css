@@ -11,17 +11,22 @@ body
 
 
 
-header figure
+
+
+header #logo
 {
 	width: 100%;
-	margin:0; 
+	margin:0;
+	text-align: center;
+	background-color:#5CA18C; 
+
 }
 
 #logo img
 {
-	width: 100%;
-	position: relative;
-	
+	width: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;	
 }
 
 /*header h1
@@ -242,7 +247,7 @@ header figure
 	width: 250px;
 	margin:50px auto 200px;
 	border:1px black none;
-	background-color: #4A8069;
+	background-color: #5CA18C;
 	border-radius: 10px 10px;	
 }
 
@@ -253,12 +258,14 @@ header figure
 	align-items: center;
 	font-size: 25px;
 	padding-left: 20px;
+	margin: 10px;
 	
 }
 
 .prochainement div h2:after
 {
-	content: "...";	
+	content: "\2026";	
+	display: inline-block;
 	font-size: 30px;
 	overflow: hidden;
 	animation-name: suspensions;
@@ -275,36 +282,16 @@ header figure
 		width: 0;
 	}
 
-	15%
-	{
-		width: 5px;
-	}
 
-
-	30%
-	{
-		width: 10px;
-	}
-	45%
-	{
-		width: 15px;
-	}
-
-	60%
+	50%
 	{
 		width: 20px;
 	}
 
 
-	75%
-	{
-		width: 25px;
-	}
-
-
 	100%
 	{
-		width: 30px;
+		width: 40px;
 	}
 }
 
@@ -315,36 +302,16 @@ header figure
 		width: 0;
 	}
 
-	15%
-	{
-		width: 5px;
-	}
 
-	30%
-	{
-		width: 10px;
-	}
-
-	45%
-	{
-		width: 15px;
-	}
-
-	60%
+	50%
 	{
 		width: 20px;
 	}
 
 
-	75%
-	{
-		width: 25px;
-	}
-
-
 	100%
 	{
-		width: 30px;
+		width: 40px;
 	}
 }
 
@@ -362,7 +329,7 @@ header figure
 	justify-content: space-between;
 	width:100%;
 	height:auto;
-	background-color:#4A8069;	
+	background-color:#5CA18C;	
 }
 
 .infos p a
