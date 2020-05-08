@@ -18,7 +18,7 @@ header #logo
 	width: 100%;
 	margin:0;
 	text-align: center;
-	background-color:#5CA18C; 
+	background-color:#639B89 ; 
 
 }
 
@@ -247,7 +247,7 @@ header #logo
 	width: 250px;
 	margin:50px auto 200px;
 	border:1px black none;
-	background-color: #5CA18C;
+	background-color: #639B89 ;
 	border-radius: 10px 10px;	
 }
 
@@ -329,7 +329,7 @@ header #logo
 	justify-content: space-between;
 	width:100%;
 	height:auto;
-	background-color:#5CA18C;	
+	background-color:#639B89 ;	
 }
 
 .infos p a

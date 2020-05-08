@@ -11,7 +11,7 @@ header #logo
 	width: 100%;
 	margin:0;
 	text-align: center;
-	background-color:#5CA18C; 
+	background-color:#639B89; 
 
 }
 
@@ -35,7 +35,7 @@ header #logo
 
 .informations h3
 {
-	background-color:#5CA18C;
+	background-color:#639B89;
 	color: #F1BE0D;
 	width: 100%;
 }
@@ -49,7 +49,7 @@ footer
 	height:auto;
 	display: flex;
 	justify-content: center;
-	background-color:#5CA18C;
+	background-color:#639B89;
 }
 
 footer div:hover
