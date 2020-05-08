@@ -68,24 +68,27 @@ header #logo
 .Menu .liste p
 {
 	margin-left:350px;
+	font-size: 15px;
 }
 
 .Menu .prix p
 {
 	margin-right: 350px;
+	font-size: 15px;
 }
 
 
 .Menu h3
 {
 	text-align: center;
-	font-size: 25px;
 	margin-top: 50px;
+	
 }
 
 .Menu h3 span
 {
 	margin: 0 70px 0;
+	font-size: 20px;
 }
 
 .Menu h3 span:hover
@@ -311,7 +314,7 @@ header #logo
 
 	.Menu h3 span
 	{
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.entree h3 span
 	{
@@ -341,12 +344,6 @@ header #logo
 		font-size: 25px;
 	}
 
-	.Menu h3 span
-	{
-		font-size: 30px;
-
-	}
-
 	.Menu header
 	{
 		margin-bottom: 0;
@@ -370,11 +367,7 @@ header #logo
 
 @media screen and (max-width: 1190px)
 {
-	.Menu h3 span
-	{
-		font-size: 30px;
-	}
-
+	
 	.Menu div p
 	{
 		font-size:25px;
@@ -451,10 +444,6 @@ header #logo
 		font-size: 40px;
 	}
 
-	.Menu h3 span
-	{	
-		font-size:25px;
-	}
 
 	.Menu div
 	{
