@@ -258,6 +258,7 @@ header #logo
 	align-items: center;
 	font-size: 25px;
 	padding-left: 20px;
+	padding-right: 20px;
 	margin: 10px;
 	
 }
@@ -524,7 +525,7 @@ header #logo
 
 	.prochainement
 	{
-		width: 200px;
+		width: 230px;
 	}
 
 	.prochainement div h2
@@ -535,9 +536,11 @@ header #logo
 
 	.prochainement div h2:after
 	{
-		content: "...";	
+		content: "\2026";	
 		font-size: 25px;
 	}
+
+	
 }
 
 @media screen and (max-width: 340px)
@@ -574,18 +577,21 @@ header #logo
 	.prochainement div h2
 	{
 		font-size: 15px;
+		margin: 5px;
 	}
 
 	.prochainement
 	{
-		width: 150px;
+		width: 180px;
+
 	}
 
 	.prochainement div h2:after
 	{
-		content: "...";	
-		font-size: 20px;
-	}	
+		content: "\2026";	
+		font-size: 15px;
+	}
+
 }
 
 @media screen and (max-width: 280px)
