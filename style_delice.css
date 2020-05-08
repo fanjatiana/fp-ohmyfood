@@ -124,7 +124,7 @@ body
 	height:auto;
 	display: flex;
 	justify-content: space-between;
-	background-color:#2F8D79 ;
+	background-color:#4A8069 ;
 	/*border: 1px black solid;*/
 }
 
@@ -197,7 +197,7 @@ body
 .infos p a
 {
 	text-decoration: none;
-	color: #EAC645;
+	color:#F1BE0D;
 
 }
 
@@ -206,14 +206,14 @@ body
 	text-align: center;
 	margin-left: 50px;
 	font-size: 20px;
-	color:#EAC645;	
+	color:#F1BE0D;	
 }
 
  .contact p
 {
 	margin-right: 50px;
 	font-size: 20px;
-	color: #EAC645;
+	color:#F1BE0D;
 }
 
 /*media queries*/

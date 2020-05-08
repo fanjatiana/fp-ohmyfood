@@ -32,8 +32,8 @@ body
 
 .informations h3
 {
-	background-color:#2F8D79 ;
-	color: #EAC645;
+	background-color:#4A8069;
+	color: #F1BE0D;
 	width: 100%;
 }
 
@@ -46,7 +46,7 @@ footer
 	height:auto;
 	display: flex;
 	justify-content: center;
-	background-color:#2F8D79 ;
+	background-color:#4A8069;
 }
 
 footer div:hover
@@ -120,7 +120,7 @@ footer div:hover
 footer .contact p a
 {
 	text-decoration: none;
-	color: #EAC645;
+	color: #F1BE0D;
 	font-size: 25px;
 	margin-left: 50px;
 }
