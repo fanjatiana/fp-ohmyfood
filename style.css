@@ -240,7 +240,7 @@ header #logo
 {
 	color: #F1BE0D;
 	display: flex;
-	align-items: center
+	align-items: center;
 	font-size: 25px;
 	padding-left: 20px;	
 }
